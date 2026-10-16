@@ -1,12 +1,12 @@
 ## Interface: 30300
-## Title: Questie-335|cFF00FF00 v10.0.1-335|r
+## Title: Questie-335|cFF00FF00 v10.0.1-335-ip20261016|r
 ## Author: Aldori + Original Questie Team
 ## Notes: A standalone Classic QuestHelper backported to 335 and sourced using AzerothCore data.
 ## Notes-esMX: Ayundante de misión
 ## Notes-esES: Ayundante de misión
 ## Notes-ptBR: Ajudante de missão
 ## Notes-frFR: Assistant de quête
-## Version: 10.0.1-335
+## Version: 10.0.1-335-ip20261016
 ## RequiredDeps:
 ## OptionalDeps: Ace3, CallbackHandler-1.0, HereBeDragons, LibDataBroker-1.1, LibDBIcon-1.0, LibSharedMedia-3.0, LibStub, LibUIDropDownMenu
 ## SavedVariables: QuestieConfig, QuestieProfilerEnabled
@@ -24,6 +24,8 @@ Compat\Compat.xml
 
 # Server data must register after Compat and before database consumers load.
 Database\AzerothCore\AzerothCore.xml
+# A live server's own data (mod-individual-progression), applied after the stock AzerothCore corrections.
+Database\IndividualProgression\IndividualProgression.xml
 
 Modules\VersionCheck.lua
 

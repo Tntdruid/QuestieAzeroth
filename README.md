@@ -1,4 +1,7 @@
 # Questie-335
+> [!NOTE]
+> **This fork (Tntdruid/QuestieAzeroth)** follows [Aldori15/Questie](https://github.com/Aldori15/Questie) and adds one layer on top: `Database/IndividualProgression/`, generated from a live AzerothCore server running [mod-individual-progression](https://github.com/Grimfeather/mod-individual-progression). Aldori15's AzerothCore corrections deliberately leave that module out. This layer loads after them and holds only what the live server does differently: vanilla quest levels, objectives, reputation, givers and spawns, the module's own quests (Simply Bang a Gong!, Chaos and Destruction, ...) and NPCs, and other custom content on the server. Regenerate it with `tools/generate_ip_overlay.py` (see the script's docstring) after a server or module update; it reads a HeidiSQL export of `acore_world` and runs Aldori15's own generators and validators. Quests 90000-99999 (the server owner's test quests) are left out.
+
 This is the actively maintained successor to the [widxwer/Questie:335](https://github.com/widxwer/Questie/tree/335) fork, tracking true 3.3.5a (AzerothCore) compatibility.  This means that Questie's data should be a 1:1 match of what is seen on AzerothCore.  If you play on a server that has custom quest data or a server that is not Acore-driven, you may see anomalies and I cannot guarantee data to be a perfect match there.  Since I play using a local Acore server, my fork is driven by that.
 
 All 16 open issues from the archived widxwer repo have been resolved, and this fork remains ahead with ongoing backports from the upstream Questie master branch, along with additional features, fixes and refactors.
@@ -9,7 +12,7 @@ A fork of the WoW Classic Questie addon aiming to provide compatibility with Wra
 > **Warmane users:** Questie **v9.6.5 or newer** is required for party quest progress sharing. Version 9.6.5 includes a [Warmane addon communication compatibility fix](https://github.com/Aldori15/Questie/commit/1735a56). All members on Warmane using Questie should update, because older versions cannot exchange quest progress data correctly on Warmane.  More info in Issues [#101](https://github.com/Aldori15/Questie/issues/101) and [#103](https://github.com/Aldori15/Questie/issues/103).
 
 # Installation
-- [Download](https://github.com/Aldori15/Questie/archive/refs/heads/335.zip) the archive.
+- [Download](https://github.com/Aldori15/Questie/archive/refs/heads/335.zip) the archive (for this fork's server layer: [Tntdruid/QuestieAzeroth](https://github.com/Tntdruid/QuestieAzeroth/archive/refs/heads/335.zip)).
 - Extract it into `Interface/AddOns/` directory, folder name should be `Questie-335`.
 
 ## Optional AzerothCore Server Bridge Module
