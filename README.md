@@ -1,19 +1,53 @@
-# Questie-335
-> [!NOTE]
-> **This fork (Tntdruid/QuestieAzeroth)** follows [Aldori15/Questie](https://github.com/Aldori15/Questie) and adds one layer on top: `Database/IndividualProgression/`, generated from a live AzerothCore server running [mod-individual-progression](https://github.com/Grimfeather/mod-individual-progression). Aldori15's AzerothCore corrections deliberately leave that module out. This layer loads after them and holds only what the live server does differently: vanilla quest levels, objectives, reputation, givers and spawns, the module's own quests (Simply Bang a Gong!, Chaos and Destruction, ...) and NPCs, and other custom content on the server. Regenerate it with `tools/generate_ip_overlay.py` (see the script's docstring) after a server or module update; it reads a HeidiSQL export of `acore_world` and runs Aldori15's own generators and validators. Quests 90000-99999 (the server owner's test quests) are left out.
+# Questie-335 for mod-individual-progression
 
-This is the actively maintained successor to the [widxwer/Questie:335](https://github.com/widxwer/Questie/tree/335) fork, tracking true 3.3.5a (AzerothCore) compatibility.  This means that Questie's data should be a 1:1 match of what is seen on AzerothCore.  If you play on a server that has custom quest data or a server that is not Acore-driven, you may see anomalies and I cannot guarantee data to be a perfect match there.  Since I play using a local Acore server, my fork is driven by that.
+Questie for WoW 3.3.5a (12340) on an AzerothCore server that runs
+[mod-individual-progression](https://github.com/Grimfeather/mod-individual-progression).
 
-All 16 open issues from the archived widxwer repo have been resolved, and this fork remains ahead with ongoing backports from the upstream Questie master branch, along with additional features, fixes and refactors.
+This is a fork of [Aldori15/Questie](https://github.com/Aldori15/Questie), the actively maintained
+Questie-335 that matches stock AzerothCore 1:1. All of Questie's features and AzerothCore data come from
+there; credit for the addon goes to Aldori15 and the original Questie team.
 
-A fork of the WoW Classic Questie addon aiming to provide compatibility with Wrath of the Lich King client version 3.3.5a (12340).
+## What this fork adds
 
-> [!IMPORTANT]
-> **Warmane users:** Questie **v9.6.5 or newer** is required for party quest progress sharing. Version 9.6.5 includes a [Warmane addon communication compatibility fix](https://github.com/Aldori15/Questie/commit/1735a56). All members on Warmane using Questie should update, because older versions cannot exchange quest progress data correctly on Warmane.  More info in Issues [#101](https://github.com/Aldori15/Questie/issues/101) and [#103](https://github.com/Aldori15/Questie/issues/103).
+mod-individual-progression changes a lot of the game: it restores vanilla quest levels, objectives,
+reputation rewards, quest givers and spawns, and adds its own quests and NPCs. Aldori15's AzerothCore
+corrections leave the module out on purpose, so on such a server stock Questie shows the wrong levels,
+givers and spawns for hundreds of quests.
 
-# Installation
-- [Download](https://github.com/Aldori15/Questie/archive/refs/heads/335.zip) the archive (for this fork's server layer: [Tntdruid/QuestieAzeroth](https://github.com/Tntdruid/QuestieAzeroth/archive/refs/heads/335.zip)).
-- Extract it into `Interface/AddOns/` directory, folder name should be `Questie-335`.
+This fork adds one layer, `Database/IndividualProgression/`, that loads after Aldori15's
+`Database/AzerothCore/` corrections and holds only what the live server does differently:
+
+- About 2,750 quest corrections: levels, objectives (Soothing Turtle Bisque also needs Soothing Spices),
+  reputation, givers and finishers.
+- The module's own quests, which Questie does not know: Simply Bang a Gong!, Chaos and Destruction, the
+  Colossus quests, Complete the War Effort and more.
+- About 4,900 NPC, 350 object and 4,500 item corrections, including the module's NPCs (Horde Warbringer,
+  ...) and other custom content on the server.
+
+Aldori15's files are left untouched, so his updates can be merged into this fork without conflicts.
+
+## Installation
+
+- [Download](https://github.com/Tntdruid/QuestieAzeroth/archive/refs/heads/335.zip) the archive.
+- Extract it into the `Interface/AddOns/` directory. The folder name must be `Questie-335`.
+- Restart WoW. The first login takes a little longer while Questie builds its database.
+
+Without mod-individual-progression on your server, use [Aldori15/Questie](https://github.com/Aldori15/Questie) instead.
+
+## Updating the server layer
+
+The layer is generated from a HeidiSQL export of the live `acore_world` database by
+`tools/generate_ip_overlay.py`, which runs Aldori15's own AzerothCore generators and validators. After
+updating the server or a module, export the database again and run (about an hour):
+
+```
+python tools/generate_ip_overlay.py --acore-source D:/azerothcore-wotlk --live-dump D:/azerothcore-live-dump/acore_world.sql --work-dir D:/questie-ip-work --map-difficulty-dbc D:/azerothcore-wotlk/env/dist/bin/dbc/MapDifficulty.dbc
+lua tools/tests/test_ip_overlay_loading.lua
+```
+
+The script adds the export's date to the TOC version (`10.0.1-335-ip20261016`), so Questie rebuilds its
+database after an update. Quests 90000-99999 (the server owner's test quests) are left out. The script's
+docstring describes how each part is found.
 
 ## Optional AzerothCore Server Bridge Module
 
@@ -43,7 +77,7 @@ The bridge is optional. Missing, disabled, or expired server information restore
 ## Questie Information
 - [Frequently Asked Questions](https://github.com/Questie/Questie/wiki/FAQ)
 - Come chat with us on [our Discord server](https://discord.gg/s33MAYKeZd).
-- You can use the [issue tracker](https://github.com/Aldori15/Questie/issues) to report bugs and post feature requests (requires a Github account).
+- Report problems with this fork's server layer in its [issue tracker](https://github.com/Tntdruid/QuestieAzeroth/issues). Bugs in Questie itself belong in [Aldori15's issue tracker](https://github.com/Aldori15/Questie/issues) (requires a Github account).
 - If you get an error message from the WoW client, please include the **complete** text or a screenshot of it in your report.
     - You need to enter `/console scriptErrors 1` once in the ingame chat for Lua error messages to be shown. You can later disable them again with `/console scriptErrors 0`.
 
