@@ -5984,6 +5984,7 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [2501] = {
             [questKeys.reputationReward] = {{factionIDs.IRONFORGE,100}},
+            [questKeys.preQuestSingle] = {17},
         },
 
         [2518] = {
@@ -11146,6 +11147,10 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [10073] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+        },
+
+        [10246] = {
+            [questKeys.preQuestSingle] = {10299},
         },
 
         [10302] = {
