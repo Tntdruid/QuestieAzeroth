@@ -486,14 +486,12 @@ QuestieCompat.RegisterCorrection("npcData", function()
 
         [681] = {
             [npcKeys.spawns] = {[zoneIDs.STRANGLETHORN_VALE] = {{30.64,7.56},{31.43,8.39},{31.54,9.94},{32.41,9.57},{33.06,9.57},{33.36,9.94},{33.57,11.15},{33.91,12.98},{34.07,11.33},{34.54,14},{34.73,17.51},{35.07,12.11},{35.13,16.52},{35.65,12.14},{35.98,12.93},{36.11,15.31},{37.29,11.56},{37.35,14.33},{38.7,15.36},{38.84,13.64},{39.21,14.45},{40.19,9.93},{40.41,8.3}}},
-            [npcKeys.factionID] = 1,
-            [npcKeys.friendlyToFaction] = "A",
+            [npcKeys.factionID] = 50,
         },
 
         [682] = {
             [npcKeys.spawns] = {[zoneIDs.STRANGLETHORN_VALE] = {{28.96,9.54},{29.36,10.41},{29.73,11.29},{30.18,13.58},{30.34,15.24},{30.4,9.02},{30.75,16.05},{31.17,15.72},{42.88,15.25},{43.07,16.16},{43.36,15.92},{43.71,15.55},{44,13.68},{44.08,15.17},{44.37,13.69},{44.67,13.79},{46,16.89},{46.08,15.32},{46.53,12.93},{46.57,16.09},{46.58,14.4},{46.6,17.51},{47.13,15.25},{47.13,16.81},{47.17,18.47},{47.4,11.43},{47.59,12.85},{48.07,13.69},{48.19,12.18}}},
-            [npcKeys.factionID] = 1,
-            [npcKeys.friendlyToFaction] = "A",
+            [npcKeys.factionID] = 2189,
         },
 
         [684] = {
@@ -826,6 +824,14 @@ QuestieCompat.RegisterCorrection("npcData", function()
             [npcKeys.maxLevel] = 55,
         },
 
+        [938] = {
+            [npcKeys.factionID] = 2189,
+        },
+
+        [940] = {
+            [npcKeys.factionID] = 2189,
+        },
+
         [946] = {
             [npcKeys.factionID] = 107,
         },
@@ -840,6 +846,10 @@ QuestieCompat.RegisterCorrection("npcData", function()
             [npcKeys.zoneID] = zoneIDs.ELWYNN_FOREST,
             [npcKeys.subName] = "Journeyman Blacksmith",
             [npcKeys.npcFlags] = 81,
+        },
+
+        [976] = {
+            [npcKeys.factionID] = 2189,
         },
 
         [983] = {
@@ -2866,7 +2876,7 @@ QuestieCompat.RegisterCorrection("npcData", function()
 
         [2554] = {
             [npcKeys.waypoints] = {[zoneIDs.ARATHI_HIGHLANDS] = {{{65.26,67.39},{64.97,67.04},{64.69,66.68},{64.99,67.05},{65.4,67.4},{65.59,68.07},{65.86,68.61},{66.11,68.99},{66.21,69.35},{65.98,68.83},{65.69,68.28},{65.52,67.63}}}},
-            [npcKeys.factionID] = 2189,
+            [npcKeys.factionID] = 50,
         },
 
         [2555] = {
@@ -13583,7 +13593,8 @@ QuestieCompat.RegisterCorrection("npcData", function()
 
         [10808] = {
             [npcKeys.rank] = 2,
-            [npcKeys.spawns] = {[zoneIDs.WDM_STRATHOLME_FLOOR_2] = {{22.48,81.26}}},
+            [npcKeys.spawns] = {[zoneIDs.WDM_STRATHOLME_FLOOR_2] = {{22.44,82.74}}},
+            [npcKeys.waypoints] = {[zoneIDs.WDM_STRATHOLME_FLOOR_2] = {{{22.44,82.74},{23.96,78.51},{24.41,74.82},{23.28,71.81},{21.26,70.22},{19.27,70.57},{19.16,72.84},{20.31,74.15},{21.14,73.38},{21.35,72.28},{21.39,71.13},{20.29,70.45},{19.37,70.98},{19.32,72.65},{20.52,74.05},{21.13,73.24},{21.28,71.18},{19,70.86}}}},
             [npcKeys.zoneID] = zoneIDs.WDM_STRATHOLME_FLOOR_2,
         },
 
@@ -13598,7 +13609,7 @@ QuestieCompat.RegisterCorrection("npcData", function()
         },
 
         [10823] = {
-            [npcKeys.spawns] = {[zoneIDs.EASTERN_PLAGUELANDS] = {{65.9,12.49},{66.79,12.67}}},
+            [npcKeys.spawns] = {[zoneIDs.EASTERN_PLAGUELANDS] = {{64.79,11.1},{66.79,12.67}}},
         },
 
         [10827] = {
@@ -13803,13 +13814,6 @@ QuestieCompat.RegisterCorrection("npcData", function()
             [npcKeys.npcFlags] = 81,
         },
 
-        [11042] = {
-            [npcKeys.spawns] = {[zoneIDs.TELDRASSIL] = {{28.93,51.98}}},
-            [npcKeys.zoneID] = zoneIDs.TELDRASSIL,
-            [npcKeys.subName] = "Expert Alchemist",
-            [npcKeys.npcFlags] = 81,
-        },
-
     }
 end)
 
@@ -13818,6 +13822,13 @@ QuestieCompat.RegisterCorrection("npcData", function()
     local zoneIDs = ZoneDB.zoneIDs
 
     return {
+        [11042] = {
+            [npcKeys.spawns] = {[zoneIDs.TELDRASSIL] = {{28.93,51.98}}},
+            [npcKeys.zoneID] = zoneIDs.TELDRASSIL,
+            [npcKeys.subName] = "Expert Alchemist",
+            [npcKeys.npcFlags] = 81,
+        },
+
         [11044] = {
             [npcKeys.spawns] = {[zoneIDs.TIRISFAL_GLADES] = {{57.7,80.79}}},
             [npcKeys.zoneID] = zoneIDs.TIRISFAL_GLADES,
