@@ -19,49 +19,168 @@ QuestieCompat.RegisterCorrection("questData", function()
         -- Generated from AzerothCore static quest relation tables and item_template.startquest.
         -- Scripted starts, events, phasing, and intentional Questie divergences still need manual review.
 
+        [17] = {
+            [questKeys.startedBy] = {{1470,9200024}},
+            [questKeys.finishedBy] = {{1470,9300024}},
+        },
+
+        [166] = {
+            [questKeys.startedBy] = {{234,9200021}},
+            [questKeys.finishedBy] = {{234,9300021}},
+        },
+
+        [167] = {
+            [questKeys.startedBy] = {{656,9200021}},
+            [questKeys.finishedBy] = {{656,9300021}},
+        },
+
+        [168] = {
+            [questKeys.startedBy] = {{656,9200021}},
+            [questKeys.finishedBy] = {{656,9300021}},
+        },
+
+        [214] = {
+            [questKeys.startedBy] = {{820,9200021}},
+            [questKeys.finishedBy] = {{820,9300021}},
+        },
+
+        [373] = {
+            [questKeys.finishedBy] = {{1646,9300021}},
+        },
+
+        [377] = {
+            [questKeys.startedBy] = {{270,9200022}},
+            [questKeys.finishedBy] = {{270,9300022}},
+        },
+
+        [378] = {
+            [questKeys.startedBy] = {{1074,9200022}},
+            [questKeys.finishedBy] = {{1074,9300022}},
+        },
+
+        [386] = {
+            [questKeys.startedBy] = {{859,9200022}},
+            [questKeys.finishedBy] = {{859,9300022}},
+        },
+
+        [387] = {
+            [questKeys.startedBy] = {{1719,9200022}},
+            [questKeys.finishedBy] = {{1719,9300022}},
+        },
+
+        [388] = {
+            [questKeys.startedBy] = {{1721,9200022}},
+            [questKeys.finishedBy] = {{1721,9300022}},
+        },
+
+        [391] = {
+            [questKeys.startedBy] = {{1719,9200022}},
+            [questKeys.finishedBy] = {{1719,9300022}},
+        },
+
         [550] = {
             [questKeys.startedBy] = {{2215}},
             [questKeys.finishedBy] = {{2425,36273}},
         },
 
+        [704] = {
+            [questKeys.startedBy] = {{1344,9200024}},
+            [questKeys.finishedBy] = {{1344,9300024}},
+        },
+
+        [709] = {
+            [questKeys.startedBy] = {{2785,9200024}},
+            [questKeys.finishedBy] = {{2785,9300024}},
+        },
+
+        [721] = {
+            [questKeys.startedBy] = {{2910,9200024}},
+            [questKeys.finishedBy] = {{2909,9300024}},
+        },
+
+        [722] = {
+            [questKeys.startedBy] = {{2909,9200024}},
+            [questKeys.finishedBy] = {{2909,9300024}},
+        },
+
         [914] = {
-            [questKeys.startedBy] = {{5770,9000014}},
-            [questKeys.finishedBy] = {{5770,9000014}},
+            [questKeys.startedBy] = {{5770,9200014}},
+            [questKeys.finishedBy] = {{5770,9300014}},
         },
 
         [959] = {
-            [questKeys.startedBy] = {{3665,9000014}},
-            [questKeys.finishedBy] = {{3665,9000014}},
+            [questKeys.startedBy] = {{3665,9200014}},
+            [questKeys.finishedBy] = {{3665,9300014}},
         },
 
         [962] = {
-            [questKeys.startedBy] = {{3419,9000014}},
-            [questKeys.finishedBy] = {{3419,9000014}},
+            [questKeys.startedBy] = {{3419,9200014}},
+            [questKeys.finishedBy] = {{3419,9300014}},
+        },
+
+        [971] = {
+            [questKeys.startedBy] = {{2786,9200017}},
+            [questKeys.finishedBy] = {{2786,9300017}},
         },
 
         [1013] = {
-            [questKeys.startedBy] = {{2934,9000016}},
-            [questKeys.finishedBy] = {{2934,9000016}},
+            [questKeys.startedBy] = {{2934,9200016}},
+            [questKeys.finishedBy] = {{2934,9300016}},
         },
 
         [1014] = {
-            [questKeys.startedBy] = {{1938,9000016}},
-            [questKeys.finishedBy] = {{1938,9000016}},
+            [questKeys.startedBy] = {{1938,9200016}},
+            [questKeys.finishedBy] = {{1938,9300016}},
+        },
+
+        [1048] = {
+            [questKeys.startedBy] = {{2425,9200023}},
+            [questKeys.finishedBy] = {{2425,9300023}},
+        },
+
+        [1049] = {
+            [questKeys.startedBy] = {{3978,9200023}},
+            [questKeys.finishedBy] = {{3978,9300023}},
+        },
+
+        [1050] = {
+            [questKeys.startedBy] = {{3979,9200023}},
+            [questKeys.finishedBy] = {{3979,9300023}},
+        },
+
+        [1051] = {
+            [questKeys.startedBy] = {{3981,9200023}},
+            [questKeys.finishedBy] = {{3982,9300023}},
+        },
+
+        [1053] = {
+            [questKeys.startedBy] = {{3980,9200023}},
+            [questKeys.finishedBy] = {{3980,9300023}},
         },
 
         [1098] = {
-            [questKeys.startedBy] = {{1952,9000016}},
-            [questKeys.finishedBy] = {{4444,9000016}},
+            [questKeys.startedBy] = {{1952,9200016}},
+            [questKeys.finishedBy] = {{4444,9300016}},
+        },
+
+        [1101] = {
+            [questKeys.startedBy] = {{4048,9200018}},
+            [questKeys.finishedBy] = {{4048,9300018}},
         },
 
         [1102] = {
-            [questKeys.startedBy] = {{4451,9000018}},
-            [questKeys.finishedBy] = {{4451,9000018}},
+            [questKeys.startedBy] = {{4451,9200018}},
+            [questKeys.finishedBy] = {{4451,9300018}},
         },
 
         [1109] = {
-            [questKeys.startedBy] = {{2055,9000018}},
-            [questKeys.finishedBy] = {{2055,9000018}},
+            [questKeys.startedBy] = {{2055,9200018}},
+            [questKeys.finishedBy] = {{2055,9300018}},
+        },
+
+        [1113] = {
+            [questKeys.startedBy] = {{2055,9200023}},
+            [questKeys.finishedBy] = {{2055,9300023}},
         },
 
         [1132] = {
@@ -79,14 +198,68 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{4456}},
         },
 
+        [1139] = {
+            [questKeys.startedBy] = {{2918,9200024}},
+            [questKeys.finishedBy] = {{2918,9300024}},
+        },
+
+        [1142] = {
+            [questKeys.startedBy] = {{4510,9200018}},
+            [questKeys.finishedBy] = {{4521,9300018}},
+        },
+
+        [1144] = {
+            [questKeys.finishedBy] = {{4508,9300018}},
+        },
+
+        [1198] = {
+            [questKeys.startedBy] = {{4786,9200017}},
+            [questKeys.finishedBy] = {{4787,9300017}},
+        },
+
+        [1199] = {
+            [questKeys.startedBy] = {{4784,9200017}},
+            [questKeys.finishedBy] = {{4784,9300017}},
+        },
+
         [1200] = {
-            [questKeys.startedBy] = {{4787,9000017}},
-            [questKeys.finishedBy] = {{4783,9000017}},
+            [questKeys.startedBy] = {{4787,9200017}},
+            [questKeys.finishedBy] = {{4783,9300017}},
+        },
+
+        [1221] = {
+            [questKeys.startedBy] = {{3446,9200018}},
+            [questKeys.finishedBy] = {{3446,9300018}},
+        },
+
+        [1275] = {
+            [questKeys.startedBy] = {{8997,9200017}},
+            [questKeys.finishedBy] = {{8997,9300017}},
+        },
+
+        [1360] = {
+            [questKeys.startedBy] = {{6294,9200024}},
+            [questKeys.finishedBy] = {{6294,9300024}},
+        },
+
+        [1445] = {
+            [questKeys.startedBy] = {{1443,9200027}},
+            [questKeys.finishedBy] = {{1443,9300027}},
+        },
+
+        [1446] = {
+            [questKeys.startedBy] = {{5598,9200027}},
+            [questKeys.finishedBy] = {{5598,9300027}},
         },
 
         [1470] = {
             [questKeys.startedBy] = {{5667}},
             [questKeys.finishedBy] = {{5667}},
+        },
+
+        [1475] = {
+            [questKeys.startedBy] = {{5384,9200027}},
+            [questKeys.finishedBy] = {{5384,9300027}},
         },
 
         [1485] = {
@@ -95,18 +268,28 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [1486] = {
-            [questKeys.startedBy] = {{5767,9000014}},
-            [questKeys.finishedBy] = {{5767,9000014}},
+            [questKeys.startedBy] = {{5767,9200014}},
+            [questKeys.finishedBy] = {{5767,9300014}},
         },
 
         [1487] = {
-            [questKeys.startedBy] = {{5768,9000014}},
-            [questKeys.finishedBy] = {{5768,9000014}},
+            [questKeys.startedBy] = {{5768,9200014}},
+            [questKeys.finishedBy] = {{5768,9300014}},
+        },
+
+        [1489] = {
+            [questKeys.startedBy] = {{3448,9200014}},
+            [questKeys.finishedBy] = {{5769,9300014}},
+        },
+
+        [1490] = {
+            [questKeys.startedBy] = {{5769,9200014}},
+            [questKeys.finishedBy] = {{5770,9300014}},
         },
 
         [1491] = {
-            [questKeys.startedBy] = {{3446,9000014}},
-            [questKeys.finishedBy] = {{3446,9000014}},
+            [questKeys.startedBy] = {{3446,9200014}},
+            [questKeys.finishedBy] = {{3446,9300014}},
         },
 
         [1598] = {
@@ -124,9 +307,19 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{6171}},
         },
 
+        [1701] = {
+            [questKeys.startedBy] = {{5413,9200018}},
+            [questKeys.finishedBy] = {{5413,9300018}},
+        },
+
         [1740] = {
-            [questKeys.startedBy] = {{6247,9000016}},
-            [questKeys.finishedBy] = {{6247,9000016}},
+            [questKeys.startedBy] = {{6247,9200016,9200017}},
+            [questKeys.finishedBy] = {{6247,9300016,9300017}},
+        },
+
+        [1838] = {
+            [questKeys.startedBy] = {{5878,9200018}},
+            [questKeys.finishedBy] = {{5878,9300018}},
         },
 
         [1886] = {
@@ -144,23 +337,280 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{6467}},
         },
 
+        [1951] = {
+            [questKeys.startedBy] = {{6548,9200023}},
+            [questKeys.finishedBy] = {{6546,9300023}},
+        },
+
+        [1956] = {
+            [questKeys.startedBy] = {{6546,9200024}},
+            [questKeys.finishedBy] = {{6546,9300024}},
+        },
+
         [1978] = {
             [questKeys.finishedBy] = {{2425,36517}},
         },
 
+        [2040] = {
+            [questKeys.startedBy] = {{6579,9200021}},
+            [questKeys.finishedBy] = {{6579,9300021}},
+        },
+
+        [2198] = {
+            [questKeys.finishedBy] = {{6826,9300024}},
+        },
+
+        [2199] = {
+            [questKeys.startedBy] = {{6826,9200024}},
+            [questKeys.finishedBy] = {{6826,9300024}},
+        },
+
+        [2200] = {
+            [questKeys.startedBy] = {{6826,9200024}},
+            [questKeys.finishedBy] = {{6912,9300024}},
+        },
+
+        [2201] = {
+            [questKeys.startedBy] = {{6912,9200024}},
+            [questKeys.finishedBy] = {{6826,9300024},{112877}},
+        },
+
+        [2202] = {
+            [questKeys.startedBy] = {{6868,9200024}},
+            [questKeys.finishedBy] = {{6868,9300024}},
+        },
+
+        [2204] = {
+            [questKeys.startedBy] = {{6826,9200024},{112877}},
+            [questKeys.finishedBy] = {{6826,9300024}},
+        },
+
+        [2240] = {
+            [questKeys.startedBy] = {{6906,9200024}},
+            [questKeys.finishedBy] = {{1356,9300024}},
+        },
+
+        [2278] = {
+            [questKeys.startedBy] = {{9200024},{131474}},
+            [questKeys.finishedBy] = {{9300024},{131474}},
+        },
+
+        [2279] = {
+            [questKeys.startedBy] = {{9200024},{131474}},
+            [questKeys.finishedBy] = {{5387,9300024}},
+        },
+
+        [2280] = {
+            [questKeys.startedBy] = {{9200024},{131474}},
+            [questKeys.finishedBy] = {{3978,9300024}},
+        },
+
+        [2283] = {
+            [questKeys.startedBy] = {{6986,9200024}},
+            [questKeys.finishedBy] = {{6986,9300024}},
+        },
+
+        [2284] = {
+            [questKeys.startedBy] = {{6986,9200024}},
+            [questKeys.finishedBy] = {{6912,9300024}},
+        },
+
+        [2318] = {
+            [questKeys.startedBy] = {{6912,9200024}},
+            [questKeys.finishedBy] = {{6868,9300024}},
+        },
+
+        [2338] = {
+            [questKeys.startedBy] = {{6868,9200024}},
+            [questKeys.finishedBy] = {{6868,9300024}},
+        },
+
+        [2339] = {
+            [questKeys.startedBy] = {{6868,9200024}},
+            [questKeys.finishedBy] = {{6868,9300024}},
+        },
+
+        [2340] = {
+            [questKeys.startedBy] = {{6868,9200024}},
+            [questKeys.finishedBy] = {{6986,9300024}},
+        },
+
+        [2341] = {
+            [questKeys.startedBy] = {{6986,9200024}},
+            [questKeys.finishedBy] = {{6868,9300024}},
+        },
+
+        [2342] = {
+            [questKeys.startedBy] = {{5651,9200024}},
+            [questKeys.finishedBy] = {{5651,9300024}},
+        },
+
+        [2361] = {
+            [questKeys.startedBy] = {{6826,9200024}},
+            [questKeys.finishedBy] = {{6826,9300024}},
+        },
+
+        [2398] = {
+            [questKeys.startedBy] = {{1356,9200024}},
+            [questKeys.finishedBy] = {{6906,9300024}},
+        },
+
+        [2418] = {
+            [questKeys.startedBy] = {{2817,9200024}},
+            [questKeys.finishedBy] = {{2817,9300024}},
+        },
+
+        [2768] = {
+            [questKeys.startedBy] = {{7407,9200025}},
+            [questKeys.finishedBy] = {{7407,9300025}},
+        },
+
+        [2770] = {
+            [questKeys.startedBy] = {{4453,9200025}},
+            [questKeys.finishedBy] = {{4453,9300025}},
+        },
+
         [2841] = {
-            [questKeys.startedBy] = {{3412,9000019}},
-            [questKeys.finishedBy] = {{3412,9000019}},
+            [questKeys.startedBy] = {{3412,9200019}},
+            [questKeys.finishedBy] = {{3412,9300019}},
         },
 
         [2842] = {
-            [questKeys.startedBy] = {{3413,9000019}},
-            [questKeys.finishedBy] = {{7853,9000019}},
+            [questKeys.startedBy] = {{3413,9200019}},
+            [questKeys.finishedBy] = {{7853,9300019}},
         },
 
         [2843] = {
-            [questKeys.startedBy] = {{7853,9000019}},
-            [questKeys.finishedBy] = {{7853,9000019}},
+            [questKeys.startedBy] = {{7853,9200019}},
+            [questKeys.finishedBy] = {{7853,9300019}},
+        },
+
+        [2846] = {
+            [questKeys.startedBy] = {{6546,9200025}},
+            [questKeys.finishedBy] = {{6546,9300025}},
+        },
+
+        [2848] = {
+            [questKeys.startedBy] = {{7852,9200024}},
+            [questKeys.finishedBy] = {{7852,9300024}},
+        },
+
+        [2855] = {
+            [questKeys.startedBy] = {{7854,9200024}},
+            [questKeys.finishedBy] = {{7854,9300024}},
+        },
+
+        [2861] = {
+            [questKeys.startedBy] = {{3048,4568,5144,5497,5885,16651,9200025}},
+            [questKeys.finishedBy] = {{6546,9300025}},
+        },
+
+        [2864] = {
+            [questKeys.startedBy] = {{773,9200025}},
+            [questKeys.finishedBy] = {{7876,9300025}},
+        },
+
+        [2865] = {
+            [questKeys.startedBy] = {{7876,9200025}},
+            [questKeys.finishedBy] = {{7876,9300025}},
+        },
+
+        [2904] = {
+            [questKeys.finishedBy] = {{7853,9300019}},
+        },
+
+        [2922] = {
+            [questKeys.startedBy] = {{7944,9200019}},
+            [questKeys.finishedBy] = {{7944,9300019}},
+        },
+
+        [2923] = {
+            [questKeys.startedBy] = {{7917,9200019}},
+            [questKeys.finishedBy] = {{7944,9300019}},
+        },
+
+        [2924] = {
+            [questKeys.startedBy] = {{6169,9200019}},
+            [questKeys.finishedBy] = {{6169,9300019}},
+        },
+
+        [2925] = {
+            [questKeys.startedBy] = {{6142,9200019}},
+            [questKeys.finishedBy] = {{6169,9300019}},
+        },
+
+        [2926] = {
+            [questKeys.startedBy] = {{1268,9200019}},
+            [questKeys.finishedBy] = {{1268,9300019}},
+        },
+
+        [2927] = {
+            [questKeys.startedBy] = {{6569,9200019}},
+            [questKeys.finishedBy] = {{1268,9300019}},
+        },
+
+        [2928] = {
+            [questKeys.startedBy] = {{6579,9200019}},
+            [questKeys.finishedBy] = {{6579,9300019}},
+        },
+
+        [2929] = {
+            [questKeys.startedBy] = {{7937,9200019}},
+            [questKeys.finishedBy] = {{7937,9300019}},
+        },
+
+        [2930] = {
+            [questKeys.startedBy] = {{7950,9200019}},
+            [questKeys.finishedBy] = {{7950,9300019}},
+        },
+
+        [2931] = {
+            [questKeys.startedBy] = {{4077,9200019}},
+            [questKeys.finishedBy] = {{7950,9300019}},
+        },
+
+        [2936] = {
+            [questKeys.startedBy] = {{3188,9200025}},
+            [questKeys.finishedBy] = {{3188,9300025}},
+        },
+
+        [2945] = {
+            [questKeys.finishedBy] = {{9300019},{142487}},
+        },
+
+        [2947] = {
+            [questKeys.startedBy] = {{9200019},{142487}},
+            [questKeys.finishedBy] = {{6826,9300019}},
+        },
+
+        [2949] = {
+            [questKeys.startedBy] = {{9200019},{142487}},
+            [questKeys.finishedBy] = {{3412,9300019}},
+        },
+
+        [2951] = {
+            [questKeys.startedBy] = {{9200019},{142487}},
+            [questKeys.finishedBy] = {{9300019},{142487}},
+        },
+
+        [2952] = {
+            [questKeys.startedBy] = {{9200019},{142487}},
+            [questKeys.finishedBy] = {{9300019},{142487}},
+        },
+
+        [2962] = {
+            [questKeys.startedBy] = {{1268,9200019}},
+            [questKeys.finishedBy] = {{1268,9300019}},
+        },
+
+        [2991] = {
+            [questKeys.startedBy] = {{8022,9200025}},
+            [questKeys.finishedBy] = {{8022,9300025}},
+        },
+
+        [3042] = {
+            [questKeys.startedBy] = {{7804,9200025}},
+            [questKeys.finishedBy] = {{7804,9300025}},
         },
 
         [3121] = {
@@ -171,24 +621,188 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.startedBy] = {{3216}},
         },
 
+        [3341] = {
+            [questKeys.startedBy] = {{2308,9200020}},
+            [questKeys.finishedBy] = {{2308,9300020}},
+        },
+
+        [3373] = {
+            [questKeys.finishedBy] = {{9300027},{148512}},
+        },
+
+        [3375] = {
+            [questKeys.startedBy] = {{6826,9200024}},
+            [questKeys.finishedBy] = {{6826,9300024}},
+        },
+
+        [3380] = {
+            [questKeys.startedBy] = {{8115,9200027}},
+            [questKeys.finishedBy] = {{7771,9300027}},
+        },
+
+        [3446] = {
+            [questKeys.startedBy] = {{7771,9200027}},
+            [questKeys.finishedBy] = {{9300027},{148836}},
+        },
+
+        [3447] = {
+            [questKeys.startedBy] = {{7771,9200027}},
+            [questKeys.finishedBy] = {{9300027},{148838}},
+        },
+
+        [3523] = {
+            [questKeys.finishedBy] = {{8516,9300020}},
+        },
+
+        [3525] = {
+            [questKeys.finishedBy] = {{9300020},{152097}},
+        },
+
+        [3527] = {
+            [questKeys.startedBy] = {{8579,9200025}},
+            [questKeys.finishedBy] = {{8579,9300025}},
+        },
+
+        [3528] = {
+            [questKeys.startedBy] = {{8579,9200027}},
+            [questKeys.finishedBy] = {{8579,9300027}},
+        },
+
         [3631] = {
             [questKeys.startedBy] = {{3326}},
             [questKeys.finishedBy] = {{6251}},
         },
 
+        [3636] = {
+            [questKeys.startedBy] = {{1284,9200020}},
+            [questKeys.finishedBy] = {{1284,9300020}},
+        },
+
+        [3801] = {
+            [questKeys.startedBy] = {{8888,9200002}},
+            [questKeys.finishedBy] = {{8888,9300002}},
+        },
+
+        [3802] = {
+            [questKeys.startedBy] = {{8888,9200002}},
+            [questKeys.finishedBy] = {{9300002},{164689}},
+        },
+
         [3906] = {
-            [questKeys.startedBy] = {{9084,9000002}},
-            [questKeys.finishedBy] = {{9084,9000002}},
+            [questKeys.startedBy] = {{9084,9200002}},
+            [questKeys.finishedBy] = {{9084,9300002}},
+        },
+
+        [3907] = {
+            [questKeys.startedBy] = {{9084,9200002}},
+            [questKeys.finishedBy] = {{9084,9300002}},
+        },
+
+        [3981] = {
+            [questKeys.startedBy] = {{9081,9200002}},
+            [questKeys.finishedBy] = {{9020,9300002}},
+        },
+
+        [3982] = {
+            [questKeys.finishedBy] = {{9020,9300002}},
+        },
+
+        [4001] = {
+            [questKeys.finishedBy] = {{4949,9300002}},
+        },
+
+        [4002] = {
+            [questKeys.startedBy] = {{4949,9200002}},
+            [questKeys.finishedBy] = {{4949,9300002}},
+        },
+
+        [4003] = {
+            [questKeys.startedBy] = {{4949,9200002}},
+            [questKeys.finishedBy] = {{8929,9300002}},
+        },
+
+        [4004] = {
+            [questKeys.finishedBy] = {{4949,9300002}},
+        },
+
+        [4024] = {
+            [questKeys.startedBy] = {{9459,9200002}},
+            [questKeys.finishedBy] = {{9459,9300002}},
+        },
+
+        [4063] = {
+            [questKeys.startedBy] = {{2921,9200002}},
+            [questKeys.finishedBy] = {{2921,9300002}},
         },
 
         [4081] = {
-            [questKeys.startedBy] = {{9000002},{164867}},
-            [questKeys.finishedBy] = {{9077,9000002}},
+            [questKeys.startedBy] = {{9200002},{164867}},
+            [questKeys.finishedBy] = {{9077,9300002}},
         },
 
         [4082] = {
-            [questKeys.startedBy] = {{9000002},{164868}},
-            [questKeys.finishedBy] = {{9077,9000002}},
+            [questKeys.startedBy] = {{9200002},{164868}},
+            [questKeys.finishedBy] = {{9077,9300002}},
+        },
+
+        [4083] = {
+            [questKeys.startedBy] = {{9200002},{164869}},
+            [questKeys.finishedBy] = {{9300002},{164869}},
+        },
+
+        [4121] = {
+            [questKeys.startedBy] = {{9520,9200002}},
+            [questKeys.finishedBy] = {{9080,9300002}},
+        },
+
+        [4122] = {
+            [questKeys.startedBy] = {{9080,9200002}},
+            [questKeys.finishedBy] = {{9520,9300002}},
+        },
+
+        [4123] = {
+            [questKeys.startedBy] = {{9536,9200002}},
+            [questKeys.finishedBy] = {{9536,9300002}},
+        },
+
+        [4126] = {
+            [questKeys.startedBy] = {{1267,9200002}},
+            [questKeys.finishedBy] = {{1267,9300002}},
+        },
+
+        [4128] = {
+            [questKeys.startedBy] = {{9540,9200002}},
+            [questKeys.finishedBy] = {{1267,9300002}},
+        },
+
+        [4132] = {
+            [questKeys.startedBy] = {{9077,9200002}},
+            [questKeys.finishedBy] = {{9077,9300002}},
+        },
+
+        [4133] = {
+            [questKeys.startedBy] = {{5204,9200002}},
+            [questKeys.finishedBy] = {{9078,9300002}},
+        },
+
+        [4134] = {
+            [questKeys.startedBy] = {{9078,9200002}},
+            [questKeys.finishedBy] = {{9078,9300002}},
+        },
+
+        [4136] = {
+            [questKeys.startedBy] = {{9544,9200002}},
+            [questKeys.finishedBy] = {{9544,9300002}},
+        },
+
+        [4143] = {
+            [questKeys.startedBy] = {{7775,9200027}},
+            [questKeys.finishedBy] = {{9119,9300027}},
+        },
+
+        [4146] = {
+            [questKeys.startedBy] = {{8496,9200027}},
+            [questKeys.finishedBy] = {{9118,9300027}},
         },
 
         [4182] = {
@@ -216,6 +830,11 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{344}},
         },
 
+        [4201] = {
+            [questKeys.startedBy] = {{9500,9200002}},
+            [questKeys.finishedBy] = {{9500,9300002}},
+        },
+
         [4223] = {
             [questKeys.startedBy] = {{344}},
             [questKeys.finishedBy] = {{9560}},
@@ -227,28 +846,67 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [4241] = {
-            [questKeys.startedBy] = {{9560}},
-            [questKeys.finishedBy] = {{9023}},
+            [questKeys.startedBy] = {{9560,9200002}},
+            [questKeys.finishedBy] = {{9023,9300002}},
         },
 
         [4242] = {
             [questKeys.startedBy] = {{9023}},
-            [questKeys.finishedBy] = {{9560}},
+            [questKeys.finishedBy] = {{9560,9300002}},
+        },
+
+        [4263] = {
+            [questKeys.startedBy] = {{9561,9200002}},
+            [questKeys.finishedBy] = {{9561,9300002}},
         },
 
         [4264] = {
             [questKeys.startedBy] = {nil,nil,{11446}},
-            [questKeys.finishedBy] = {{9023}},
+            [questKeys.finishedBy] = {{9023,9300002}},
         },
 
         [4282] = {
             [questKeys.startedBy] = {{9023}},
-            [questKeys.finishedBy] = {{9023}},
+            [questKeys.finishedBy] = {{9023,9300002}},
+        },
+
+        [4286] = {
+            [questKeys.startedBy] = {{9177,9200002}},
+            [questKeys.finishedBy] = {{9177,9300002}},
         },
 
         [4322] = {
             [questKeys.startedBy] = {{9023}},
-            [questKeys.finishedBy] = {{9560}},
+            [questKeys.finishedBy] = {{9560,9300002}},
+        },
+
+        [4324] = {
+            [questKeys.startedBy] = {{9706,9200002}},
+            [questKeys.finishedBy] = {{9544,9300002}},
+        },
+
+        [4341] = {
+            [questKeys.startedBy] = {{2784,9200002}},
+            [questKeys.finishedBy] = {{9021,9300002}},
+        },
+
+        [4342] = {
+            [questKeys.startedBy] = {{9021,9200002}},
+            [questKeys.finishedBy] = {{9021,9300002}},
+        },
+
+        [4361] = {
+            [questKeys.startedBy] = {{9021,9200002}},
+            [questKeys.finishedBy] = {{2784,9300002}},
+        },
+
+        [4362] = {
+            [questKeys.startedBy] = {{2784,9200002}},
+            [questKeys.finishedBy] = {{8929,9300002}},
+        },
+
+        [4363] = {
+            [questKeys.finishedBy] = {{2784,9300002}},
         },
 
         [4485] = {
@@ -275,24 +933,366 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{6251}},
         },
 
+        [4601] = {
+            [questKeys.startedBy] = {{9200019},{175084}},
+            [questKeys.finishedBy] = {{9300019},{175084}},
+        },
+
+        [4602] = {
+            [questKeys.startedBy] = {{9200019},{175085}},
+            [questKeys.finishedBy] = {{9300019},{175085}},
+        },
+
+        [4605] = {
+            [questKeys.startedBy] = {{9200019},{175084}},
+            [questKeys.finishedBy] = {{9300019},{175084}},
+        },
+
+        [4606] = {
+            [questKeys.startedBy] = {{9200019},{175085}},
+            [questKeys.finishedBy] = {{9300019},{175085}},
+        },
+
+        [4701] = {
+            [questKeys.startedBy] = {{9562,9200028}},
+            [questKeys.finishedBy] = {{9562,9300028}},
+        },
+
+        [4724] = {
+            [questKeys.startedBy] = {{9081,9200028}},
+            [questKeys.finishedBy] = {{9081,9300028}},
+        },
+
+        [4729] = {
+            [questKeys.startedBy] = {{10260,9200028}},
+            [questKeys.finishedBy] = {{10260,9300028}},
+        },
+
+        [4734] = {
+            [questKeys.startedBy] = {{10267,9200028}},
+            [questKeys.finishedBy] = {{10267,9300028}},
+        },
+
+        [4735] = {
+            [questKeys.startedBy] = {{10267,9200028}},
+            [questKeys.finishedBy] = {{10267,9300028}},
+        },
+
+        [4742] = {
+            [questKeys.startedBy] = {{10296,9200028}},
+            [questKeys.finishedBy] = {{10296,9300028}},
+        },
+
+        [4743] = {
+            [questKeys.startedBy] = {{10296,9200028}},
+            [questKeys.finishedBy] = {{10296,9300028}},
+        },
+
+        [4764] = {
+            [questKeys.startedBy] = {{9565,9200028}},
+            [questKeys.finishedBy] = {{9565,9300028}},
+        },
+
+        [4765] = {
+            [questKeys.startedBy] = {{9565,9200028}},
+            [questKeys.finishedBy] = {{2285,9300028}},
+        },
+
+        [4766] = {
+            [questKeys.startedBy] = {{2285,9200028}},
+            [questKeys.finishedBy] = {{9565,9300028}},
+        },
+
+        [4768] = {
+            [questKeys.startedBy] = {{9078,9200028}},
+            [questKeys.finishedBy] = {{9078,9300028}},
+        },
+
+        [4769] = {
+            [questKeys.startedBy] = {{5204,9200028}},
+            [questKeys.finishedBy] = {{9078,9300028}},
+        },
+
+        [4771] = {
+            [questKeys.startedBy] = {{11035,9200030}},
+            [questKeys.finishedBy] = {{11035,9300030}},
+        },
+
+        [4788] = {
+            [questKeys.startedBy] = {{10460,9200028}},
+            [questKeys.finishedBy] = {{10460,9300028}},
+        },
+
+        [4862] = {
+            [questKeys.startedBy] = {{10260,9200028}},
+            [questKeys.finishedBy] = {{10260,9300028}},
+        },
+
+        [4866] = {
+            [questKeys.startedBy] = {{9563,9200028}},
+            [questKeys.finishedBy] = {{9563,9300028}},
+        },
+
+        [4867] = {
+            [questKeys.startedBy] = {{10799,9200028}},
+            [questKeys.finishedBy] = {{10799,9300028}},
+        },
+
+        [4903] = {
+            [questKeys.finishedBy] = {{9077,9300028}},
+        },
+
+        [4907] = {
+            [questKeys.startedBy] = {{10468,9200028}},
+            [questKeys.finishedBy] = {{10267,9300028}},
+        },
+
+        [4974] = {
+            [questKeys.startedBy] = {{4949,9200028}},
+            [questKeys.finishedBy] = {{4949,9300028}},
+        },
+
+        [4981] = {
+            [questKeys.startedBy] = {{9080,9200028}},
+            [questKeys.finishedBy] = {{10257,9300028}},
+        },
+
+        [4982] = {
+            [questKeys.startedBy] = {{10257,9200028}},
+            [questKeys.finishedBy] = {{10257,9300028}},
+        },
+
+        [4983] = {
+            [questKeys.startedBy] = {{10257,9200028}},
+            [questKeys.finishedBy] = {{9080,9300028}},
+        },
+
+        [5001] = {
+            [questKeys.startedBy] = {{10257,9200028}},
+            [questKeys.finishedBy] = {{10257,9300028}},
+        },
+
+        [5002] = {
+            [questKeys.startedBy] = {{10257,9200028}},
+            [questKeys.finishedBy] = {{9560,9300028}},
+        },
+
+        [5047] = {
+            [questKeys.startedBy] = {{10776,9200028}},
+            [questKeys.finishedBy] = {{10637,9300028}},
+        },
+
+        [5063] = {
+            [questKeys.startedBy] = {{9200031},{175927}},
+            [questKeys.finishedBy] = {{10637,9300031}},
+        },
+
+        [5067] = {
+            [questKeys.startedBy] = {{9200030,9200031},{175927}},
+            [questKeys.finishedBy] = {{10637,9300030,9300031}},
+        },
+
+        [5068] = {
+            [questKeys.startedBy] = {{9200030,9200031},{175927}},
+            [questKeys.finishedBy] = {{10637,9300030,9300031}},
+        },
+
+        [5081] = {
+            [questKeys.startedBy] = {{9560,9200028}},
+            [questKeys.finishedBy] = {{9560,9300028}},
+        },
+
+        [5089] = {
+            [questKeys.finishedBy] = {{9560,9300028}},
+        },
+
+        [5102] = {
+            [questKeys.startedBy] = {{9560,9200028}},
+            [questKeys.finishedBy] = {{9560,9300028}},
+        },
+
+        [5103] = {
+            [questKeys.startedBy] = {{9200028},{176090}},
+            [questKeys.finishedBy] = {{10637,9300028}},
+        },
+
+        [5122] = {
+            [questKeys.startedBy] = {{10917,9200031}},
+            [questKeys.finishedBy] = {{10917,9300031}},
+        },
+
+        [5124] = {
+            [questKeys.startedBy] = {{10637,9200028}},
+            [questKeys.finishedBy] = {{10637,9300028}},
+        },
+
+        [5125] = {
+            [questKeys.startedBy] = {{10917,9200031}},
+            [questKeys.finishedBy] = {{10917,9300031}},
+        },
+
+        [5127] = {
+            [questKeys.startedBy] = {{10918,9200028}},
+            [questKeys.finishedBy] = {{10918,9300028}},
+        },
+
+        [5160] = {
+            [questKeys.startedBy] = {{10740,9200028}},
+            [questKeys.finishedBy] = {{10929,9300028}},
+        },
+
+        [5166] = {
+            [questKeys.startedBy] = {{9200028,9200031},{176192}},
+            [questKeys.finishedBy] = {{10976,9300028,9300031}},
+        },
+
+        [5167] = {
+            [questKeys.startedBy] = {{9200028,9200030},{176192}},
+            [questKeys.finishedBy] = {{10976,9300028,9300030}},
+        },
+
+        [5212] = {
+            [questKeys.startedBy] = {{11035,9200031}},
+            [questKeys.finishedBy] = {{11035,9300031}},
+        },
+
+        [5213] = {
+            [questKeys.startedBy] = {{11035,9200031}},
+            [questKeys.finishedBy] = {{11035,9300031}},
+        },
+
+        [5214] = {
+            [questKeys.startedBy] = {{11033,9200031}},
+            [questKeys.finishedBy] = {{11033,9300031}},
+        },
+
+        [5243] = {
+            [questKeys.startedBy] = {{11036,9200031}},
+            [questKeys.finishedBy] = {{11036,9300031}},
+        },
+
+        [5251] = {
+            [questKeys.startedBy] = {{11039,9200031}},
+            [questKeys.finishedBy] = {{11039,9300031}},
+        },
+
+        [5262] = {
+            [questKeys.finishedBy] = {{11039,9300031}},
+        },
+
+        [5263] = {
+            [questKeys.startedBy] = {{11039,9200031}},
+            [questKeys.finishedBy] = {{11039,9300031}},
+        },
+
+        [5282] = {
+            [questKeys.startedBy] = {{11140,9200031}},
+            [questKeys.finishedBy] = {{11140,9300031}},
+        },
+
+        [5306] = {
+            [questKeys.startedBy] = {{11192,9200028}},
+            [questKeys.finishedBy] = {{11192,9300028}},
+        },
+
+        [5341] = {
+            [questKeys.startedBy] = {{11022,9200030}},
+            [questKeys.finishedBy] = {{11022,9300030}},
+        },
+
+        [5343] = {
+            [questKeys.startedBy] = {{11023,9200030}},
+            [questKeys.finishedBy] = {{11023,9300030}},
+        },
+
+        [5382] = {
+            [questKeys.startedBy] = {{11216,9200030}},
+            [questKeys.finishedBy] = {{11216,9300030}},
+        },
+
+        [5384] = {
+            [questKeys.startedBy] = {{11216,9200030}},
+            [questKeys.finishedBy] = {{11216,9300030}},
+        },
+
+        [5463] = {
+            [questKeys.startedBy] = {{11036,9200031}},
+            [questKeys.finishedBy] = {{9300031},{176631}},
+        },
+
+        [5464] = {
+            [questKeys.startedBy] = {{9200031},{176631}},
+            [questKeys.finishedBy] = {{11036,9300031}},
+        },
+
+        [5466] = {
+            [questKeys.startedBy] = {{11286,9200030}},
+            [questKeys.finishedBy] = {{11286,9300030}},
+        },
+
+        [5515] = {
+            [questKeys.startedBy] = {{11216,9200030}},
+            [questKeys.finishedBy] = {{11216,9300030}},
+        },
+
+        [5518] = {
+            [questKeys.startedBy] = {{14338,9200029}},
+            [questKeys.finishedBy] = {{14338,9300029}},
+        },
+
+        [5525] = {
+            [questKeys.startedBy] = {{14338,9200029}},
+            [questKeys.finishedBy] = {{14338,9300029}},
+        },
+
+        [5529] = {
+            [questKeys.startedBy] = {{11035,9200030}},
+            [questKeys.finishedBy] = {{11035,9300030}},
+        },
+
+        [5531] = {
+            [questKeys.startedBy] = {{11036,9200030}},
+            [questKeys.finishedBy] = {{11035,9300030}},
+        },
+
         [5722] = {
-            [questKeys.startedBy] = {{11833,9000015}},
-            [questKeys.finishedBy] = {{11834,9000015}},
+            [questKeys.startedBy] = {{11833,9200015}},
+            [questKeys.finishedBy] = {{11834,9300015}},
         },
 
         [5723] = {
-            [questKeys.startedBy] = {{11833,9000015}},
-            [questKeys.finishedBy] = {{11833,9000015}},
+            [questKeys.startedBy] = {{11833,9200015}},
+            [questKeys.finishedBy] = {{11833,9300015}},
         },
 
         [5724] = {
-            [questKeys.startedBy] = {{11834,9000015}},
-            [questKeys.finishedBy] = {{11833,9000015}},
+            [questKeys.startedBy] = {{11834,9200015}},
+            [questKeys.finishedBy] = {{11833,9300015}},
+        },
+
+        [5725] = {
+            [questKeys.startedBy] = {{2425,9200015}},
+            [questKeys.finishedBy] = {{2425,9300015}},
+        },
+
+        [5728] = {
+            [questKeys.startedBy] = {{4949,9200015}},
+            [questKeys.finishedBy] = {{4949,9300015}},
         },
 
         [5761] = {
-            [questKeys.startedBy] = {{3216,9000015}},
-            [questKeys.finishedBy] = {{3216,9000015}},
+            [questKeys.startedBy] = {{3216,9200015}},
+            [questKeys.finishedBy] = {{3216,9300015}},
+        },
+
+        [5848] = {
+            [questKeys.startedBy] = {{11936,9200031}},
+            [questKeys.finishedBy] = {{1855,9300031}},
+        },
+
+        [6163] = {
+            [questKeys.startedBy] = {{11878,9200031}},
+            [questKeys.finishedBy] = {{11878,9300031}},
         },
 
         [6186] = {
@@ -320,37 +1320,130 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [6502] = {
-            [questKeys.startedBy] = {{10929}},
-            [questKeys.finishedBy] = {{10929}},
+            [questKeys.startedBy] = {{10929,9200028}},
+            [questKeys.finishedBy] = {{10929,9300028}},
         },
 
         [6521] = {
-            [questKeys.startedBy] = {{2425}},
-            [questKeys.finishedBy] = {{2425}},
+            [questKeys.startedBy] = {{2425,9200020}},
+            [questKeys.finishedBy] = {{2425,9300020}},
         },
 
         [6522] = {
             [questKeys.startedBy] = {nil,nil,{17008}},
-            [questKeys.finishedBy] = {{2425}},
+            [questKeys.finishedBy] = {{2425,9300018,9300020}},
         },
 
         [6561] = {
-            [questKeys.startedBy] = {{4787,9000017}},
-            [questKeys.finishedBy] = {{9087,9000017}},
+            [questKeys.startedBy] = {{4787,9200017}},
+            [questKeys.finishedBy] = {{9087,9300017}},
         },
 
         [6562] = {
-            [questKeys.startedBy] = {{11862,9000017}},
-            [questKeys.finishedBy] = {{12736,9000017}},
+            [questKeys.startedBy] = {{11862,9200017}},
+            [questKeys.finishedBy] = {{12736,9300017}},
         },
 
         [6563] = {
-            [questKeys.startedBy] = {{12736,9000017}},
-            [questKeys.finishedBy] = {{12736,9000017}},
+            [questKeys.startedBy] = {{12736,9200017}},
+            [questKeys.finishedBy] = {{12736,9300017}},
+        },
+
+        [6564] = {
+            [questKeys.finishedBy] = {{12736,9300017}},
+        },
+
+        [6565] = {
+            [questKeys.startedBy] = {{12736,9200017}},
+            [questKeys.finishedBy] = {{12736,9300017}},
+        },
+
+        [6569] = {
+            [questKeys.startedBy] = {{11872,9200028}},
+            [questKeys.finishedBy] = {{11872,9300028}},
+        },
+
+        [6602] = {
+            [questKeys.startedBy] = {{10182,9200028}},
+            [questKeys.finishedBy] = {{10182,9300028}},
+        },
+
+        [6626] = {
+            [questKeys.startedBy] = {{12866,9200020}},
+            [questKeys.finishedBy] = {{12866,9300020}},
         },
 
         [6804] = {
             [questKeys.startedBy] = {{13278}},
+        },
+
+        [6821] = {
+            [questKeys.startedBy] = {{13278,9200028}},
+            [questKeys.finishedBy] = {{13278,9300028}},
+        },
+
+        [6921] = {
+            [questKeys.startedBy] = {{12736,9200017}},
+            [questKeys.finishedBy] = {{12736,9300017}},
+        },
+
+        [6981] = {
+            [questKeys.finishedBy] = {{8418,9300014}},
+        },
+
+        [7028] = {
+            [questKeys.startedBy] = {{13656,9200026}},
+            [questKeys.finishedBy] = {{13656,9300026}},
+        },
+
+        [7029] = {
+            [questKeys.startedBy] = {{11823,9200026}},
+            [questKeys.finishedBy] = {{11823,9300026}},
+        },
+
+        [7041] = {
+            [questKeys.startedBy] = {{11715,9200026}},
+            [questKeys.finishedBy] = {{11715,9300026}},
+        },
+
+        [7044] = {
+            [questKeys.startedBy] = {{13697,9200026}},
+            [questKeys.finishedBy] = {{13716,9300026}},
+        },
+
+        [7046] = {
+            [questKeys.startedBy] = {{13716,9200026}},
+            [questKeys.finishedBy] = {{13716,9300026}},
+        },
+
+        [7064] = {
+            [questKeys.startedBy] = {{13699,9200026}},
+            [questKeys.finishedBy] = {{13699,9300026}},
+        },
+
+        [7065] = {
+            [questKeys.startedBy] = {{13698,9200026}},
+            [questKeys.finishedBy] = {{13698,9300026}},
+        },
+
+        [7066] = {
+            [questKeys.startedBy] = {{12238,9200026}},
+            [questKeys.finishedBy] = {{11832,9300026}},
+        },
+
+        [7067] = {
+            [questKeys.startedBy] = {{13717,9200026}},
+            [questKeys.finishedBy] = {{13717,9300026}},
+        },
+
+        [7068] = {
+            [questKeys.startedBy] = {{7311,9200026}},
+            [questKeys.finishedBy] = {{7311,9300026}},
+        },
+
+        [7070] = {
+            [questKeys.startedBy] = {{4967,9200026}},
+            [questKeys.finishedBy] = {{4967,9300026}},
         },
 
         [7122] = {
@@ -364,6 +1457,11 @@ QuestieCompat.RegisterCorrection("questData", function()
         [7181] = {
             [questKeys.startedBy] = {{13840}},
             [questKeys.finishedBy] = {{13840}},
+        },
+
+        [7201] = {
+            [questKeys.startedBy] = {{9078,9200002}},
+            [questKeys.finishedBy] = {{9078,9300002}},
         },
 
         [7202] = {
@@ -461,6 +1559,46 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{13447}},
         },
 
+        [7441] = {
+            [questKeys.startedBy] = {{14355,9200029}},
+            [questKeys.finishedBy] = {{14355,9300029}},
+        },
+
+        [7461] = {
+            [questKeys.startedBy] = {{14358,9200029}},
+            [questKeys.finishedBy] = {{14358,9300029}},
+        },
+
+        [7462] = {
+            [questKeys.startedBy] = {{14358,9200029}},
+            [questKeys.finishedBy] = {{9300029},{179517}},
+        },
+
+        [7481] = {
+            [questKeys.startedBy] = {{14373,9200029}},
+            [questKeys.finishedBy] = {{14373,9300029}},
+        },
+
+        [7482] = {
+            [questKeys.startedBy] = {{14374,9200029}},
+            [questKeys.finishedBy] = {{14374,9300029}},
+        },
+
+        [7487] = {
+            [questKeys.startedBy] = {{14387,9200002}},
+            [questKeys.finishedBy] = {{14387,9300002}},
+        },
+
+        [7488] = {
+            [questKeys.startedBy] = {{7877,9200029}},
+            [questKeys.finishedBy] = {{7877,9300029}},
+        },
+
+        [7489] = {
+            [questKeys.startedBy] = {{7776,9200029}},
+            [questKeys.finishedBy] = {{7776,9300029}},
+        },
+
         [7490] = {
             [questKeys.finishedBy] = {{4949}},
         },
@@ -470,6 +1608,16 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{14392}},
         },
 
+        [7492] = {
+            [questKeys.startedBy] = {{10879,10880,10881,20724,9200029}},
+            [questKeys.finishedBy] = {{7776,9300029}},
+        },
+
+        [7494] = {
+            [questKeys.startedBy] = {{2198,10877,10878,20722,9200029}},
+            [questKeys.finishedBy] = {{7877,9300029}},
+        },
+
         [7495] = {
             [questKeys.finishedBy] = {{1748,29611}},
         },
@@ -477,6 +1625,38 @@ QuestieCompat.RegisterCorrection("questData", function()
         [7496] = {
             [questKeys.startedBy] = {{1748}},
             [questKeys.finishedBy] = {{14394}},
+        },
+
+        [7498] = {
+            [questKeys.finishedBy] = {{14383,9300029}},
+        },
+
+        [7499] = {
+            [questKeys.finishedBy] = {{14383,9300029}},
+        },
+
+        [7500] = {
+            [questKeys.finishedBy] = {{14383,9300029}},
+        },
+
+        [7501] = {
+            [questKeys.finishedBy] = {{14382,9300029}},
+        },
+
+        [7502] = {
+            [questKeys.finishedBy] = {{14382,9300029}},
+        },
+
+        [7504] = {
+            [questKeys.finishedBy] = {{14381,9300029}},
+        },
+
+        [7505] = {
+            [questKeys.finishedBy] = {{14381,9300029}},
+        },
+
+        [7506] = {
+            [questKeys.finishedBy] = {{14381,9300029}},
         },
 
         [7507] = {
@@ -494,8 +1674,55 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{14368}},
         },
 
+        [7649] = {
+            [questKeys.finishedBy] = {{14368,9300029}},
+        },
+
+        [7650] = {
+            [questKeys.finishedBy] = {{14368,9300029}},
+        },
+
+        [7703] = {
+            [questKeys.startedBy] = {{14325,9200029}},
+            [questKeys.finishedBy] = {{14325,9300029}},
+        },
+
+        [7761] = {
+            [questKeys.finishedBy] = {{9300028},{179880}},
+        },
+
         [7781] = {
             [questKeys.finishedBy] = {{1748}},
+        },
+
+        [7848] = {
+            [questKeys.startedBy] = {{14387,9200002}},
+            [questKeys.finishedBy] = {{14387,9300002}},
+        },
+
+        [7877] = {
+            [questKeys.startedBy] = {{14358,9200029}},
+            [questKeys.finishedBy] = {{9300029},{179517}},
+        },
+
+        [8232] = {
+            [questKeys.startedBy] = {{8405,9200027}},
+            [questKeys.finishedBy] = {{8405,9300027}},
+        },
+
+        [8236] = {
+            [questKeys.startedBy] = {{8379,9200027}},
+            [questKeys.finishedBy] = {{6768,9300027}},
+        },
+
+        [8253] = {
+            [questKeys.startedBy] = {{8379,9200027}},
+            [questKeys.finishedBy] = {{8379,9300027}},
+        },
+
+        [8257] = {
+            [questKeys.startedBy] = {{8405,9200027}},
+            [questKeys.finishedBy] = {{10922,9300027}},
         },
 
         [8344] = {
@@ -673,8 +1900,28 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{115351}},
         },
 
+        [8413] = {
+            [questKeys.startedBy] = {{6176,9200027}},
+            [questKeys.finishedBy] = {{6176,9300027}},
+        },
+
+        [8418] = {
+            [questKeys.startedBy] = {{10838,9200027}},
+            [questKeys.finishedBy] = {{10838,9300027}},
+        },
+
         [8419] = {
             [questKeys.startedBy] = {{461,988,3326,4563,4565,5171,5172,5173,16646,16647,16648,23534}},
+        },
+
+        [8422] = {
+            [questKeys.startedBy] = {{14470,9200027}},
+            [questKeys.finishedBy] = {{14470,9300027}},
+        },
+
+        [8425] = {
+            [questKeys.startedBy] = {{7572,9200027}},
+            [questKeys.finishedBy] = {{7572,9300027}},
         },
 
         [8426] = {
@@ -767,6 +2014,16 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{115350}},
         },
 
+        [8600] = {
+            [questKeys.startedBy] = {{15525,9200029}},
+            [questKeys.finishedBy] = {{15525,9300029}},
+        },
+
+        [8733] = {
+            [questKeys.startedBy] = {{15362,9200027}},
+            [questKeys.finishedBy] = {{15624,9300027}},
+        },
+
         [8743] = {
             [questKeys.startedBy] = {nil,{180717}},
             [questKeys.finishedBy] = {nil,{180717}},
@@ -793,6 +2050,410 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [8797] = {
             [questKeys.startedBy] = {},
+        },
+
+        [8829] = {
+            [questKeys.finishedBy] = {{15282,9300030,9300031}},
+        },
+
+        [8905] = {
+            [questKeys.startedBy] = {{16013,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300030,9300031}},
+        },
+
+        [8906] = {
+            [questKeys.startedBy] = {{16013,9200028,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300031}},
+        },
+
+        [8907] = {
+            [questKeys.startedBy] = {{16013,9200028}},
+            [questKeys.finishedBy] = {{16013,9300028}},
+        },
+
+        [8908] = {
+            [questKeys.startedBy] = {{16013,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300030,9300031}},
+        },
+
+        [8909] = {
+            [questKeys.startedBy] = {{16013,9200031}},
+            [questKeys.finishedBy] = {{16013,9300031}},
+        },
+
+        [8910] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030,9300031}},
+        },
+
+        [8911] = {
+            [questKeys.startedBy] = {{16013,9200028}},
+            [questKeys.finishedBy] = {{16013,9300028}},
+        },
+
+        [8912] = {
+            [questKeys.startedBy] = {{16013,9200028}},
+            [questKeys.finishedBy] = {{16013,9300028}},
+        },
+
+        [8913] = {
+            [questKeys.startedBy] = {{16012,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300030,9300031}},
+        },
+
+        [8914] = {
+            [questKeys.startedBy] = {{16012,9200028,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300031}},
+        },
+
+        [8915] = {
+            [questKeys.startedBy] = {{16012,9200028}},
+            [questKeys.finishedBy] = {{16012,9300028}},
+        },
+
+        [8916] = {
+            [questKeys.startedBy] = {{16012,9200031}},
+            [questKeys.finishedBy] = {{16012,9300031}},
+        },
+
+        [8917] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030,9300031}},
+        },
+
+        [8918] = {
+            [questKeys.startedBy] = {{16012,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300030,9300031}},
+        },
+
+        [8919] = {
+            [questKeys.startedBy] = {{16012,9200028}},
+            [questKeys.finishedBy] = {{16012,9300028}},
+        },
+
+        [8920] = {
+            [questKeys.startedBy] = {{16012,9200028}},
+            [questKeys.finishedBy] = {{16012,9300028}},
+        },
+
+        [8926] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030,9300031}},
+        },
+
+        [8927] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030,9300031}},
+        },
+
+        [8931] = {
+            [questKeys.startedBy] = {{16013,9200028}},
+            [questKeys.finishedBy] = {{16013,9300028}},
+        },
+
+        [8932] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030,9300031}},
+        },
+
+        [8933] = {
+            [questKeys.startedBy] = {{16013,9200031}},
+            [questKeys.finishedBy] = {{16013,9300031}},
+        },
+
+        [8934] = {
+            [questKeys.startedBy] = {{16013,9200028,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300031}},
+        },
+
+        [8935] = {
+            [questKeys.startedBy] = {{16013,9200028}},
+            [questKeys.finishedBy] = {{16013,9300028}},
+        },
+
+        [8936] = {
+            [questKeys.startedBy] = {{16013,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300030,9300031}},
+        },
+
+        [8937] = {
+            [questKeys.startedBy] = {{16013,9200028,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300031}},
+        },
+
+        [8938] = {
+            [questKeys.startedBy] = {{16012,9200028}},
+            [questKeys.finishedBy] = {{16012,9300028}},
+        },
+
+        [8939] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030,9300031}},
+        },
+
+        [8940] = {
+            [questKeys.startedBy] = {{16012,9200028,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300031}},
+        },
+
+        [8941] = {
+            [questKeys.startedBy] = {{16012,9200028}},
+            [questKeys.finishedBy] = {{16012,9300028}},
+        },
+
+        [8942] = {
+            [questKeys.startedBy] = {{16012,9200028}},
+            [questKeys.finishedBy] = {{16012,9300028}},
+        },
+
+        [8943] = {
+            [questKeys.startedBy] = {{16012,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300030,9300031}},
+        },
+
+        [8944] = {
+            [questKeys.startedBy] = {{16012,9200028,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300031}},
+        },
+
+        [8945] = {
+            [questKeys.startedBy] = {{16016,9200031}},
+            [questKeys.finishedBy] = {{16031,9300031}},
+        },
+
+        [8946] = {
+            [questKeys.startedBy] = {{16031,9200031}},
+            [questKeys.finishedBy] = {{16016,9300031}},
+        },
+
+        [8948] = {
+            [questKeys.startedBy] = {{16016,9200029}},
+            [questKeys.finishedBy] = {{16032,9300029}},
+        },
+
+        [8949] = {
+            [questKeys.startedBy] = {{16032,9200029}},
+            [questKeys.finishedBy] = {{16032,9300029}},
+        },
+
+        [8950] = {
+            [questKeys.startedBy] = {{16032,9200029,9200030}},
+            [questKeys.finishedBy] = {{16032,9300029,9300030}},
+        },
+
+        [8951] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300031}},
+        },
+
+        [8952] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300031}},
+        },
+
+        [8953] = {
+            [questKeys.startedBy] = {{16016,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300030,9300031}},
+        },
+
+        [8954] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300031}},
+        },
+
+        [8955] = {
+            [questKeys.startedBy] = {{16016,9200031}},
+            [questKeys.finishedBy] = {{16013,9300031}},
+        },
+
+        [8956] = {
+            [questKeys.startedBy] = {{16016,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300030,9300031}},
+        },
+
+        [8957] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300031}},
+        },
+
+        [8958] = {
+            [questKeys.startedBy] = {{16016,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300030,9300031}},
+        },
+
+        [8959] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300031}},
+        },
+
+        [8961] = {
+            [questKeys.startedBy] = {{16033,9200002,9200028}},
+            [questKeys.finishedBy] = {{16033,9300002,9300028}},
+        },
+
+        [8966] = {
+            [questKeys.startedBy] = {{16033,9200028}},
+            [questKeys.finishedBy] = {{16033,9300028}},
+        },
+
+        [8967] = {
+            [questKeys.startedBy] = {{16033,9200029}},
+            [questKeys.finishedBy] = {{16033,9300029}},
+        },
+
+        [8968] = {
+            [questKeys.startedBy] = {{16033,9200031}},
+            [questKeys.finishedBy] = {{16033,9300031}},
+        },
+
+        [8969] = {
+            [questKeys.startedBy] = {{16033,9200030}},
+            [questKeys.finishedBy] = {{16033,9300030}},
+        },
+
+        [8989] = {
+            [questKeys.startedBy] = {{16033,9200028}},
+            [questKeys.finishedBy] = {{16033,9300028}},
+        },
+
+        [8990] = {
+            [questKeys.startedBy] = {{16033,9200029}},
+            [questKeys.finishedBy] = {{16033,9300029}},
+        },
+
+        [8991] = {
+            [questKeys.startedBy] = {{16033,9200031}},
+            [questKeys.finishedBy] = {{16033,9300031}},
+        },
+
+        [8992] = {
+            [questKeys.startedBy] = {{16033,9200030}},
+            [questKeys.finishedBy] = {{16033,9300030}},
+        },
+
+        [8995] = {
+            [questKeys.startedBy] = {{16033,9200028}},
+            [questKeys.finishedBy] = {{16073,9300028}},
+        },
+
+        [8999] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [9000] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [9001] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [9002] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [9003] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [9004] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [9005] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [9006] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [9007] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
+        },
+
+        [9008] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
+        },
+
+        [9009] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
+        },
+
+        [9010] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
+        },
+
+        [9011] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
+        },
+
+        [9012] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
+        },
+
+        [9013] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
+        },
+
+        [9014] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
+        },
+
+        [9015] = {
+            [questKeys.startedBy] = {{16032,9200002,9200029}},
+            [questKeys.finishedBy] = {{16016,9300002,9300029}},
+        },
+
+        [9016] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300031}},
+        },
+
+        [9017] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300031}},
+        },
+
+        [9018] = {
+            [questKeys.startedBy] = {{16016,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300030,9300031}},
+        },
+
+        [9019] = {
+            [questKeys.startedBy] = {{16016,9200031}},
+            [questKeys.finishedBy] = {{16012,9300031}},
+        },
+
+        [9020] = {
+            [questKeys.startedBy] = {{16016,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300030,9300031}},
+        },
+
+        [9021] = {
+            [questKeys.startedBy] = {{16016,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300030,9300031}},
+        },
+
+        [9022] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300031}},
         },
 
         [9034] = {
@@ -868,6 +2529,11 @@ QuestieCompat.RegisterCorrection("questData", function()
         [9050] = {
             [questKeys.startedBy] = {{16115}},
             [questKeys.finishedBy] = {{16115}},
+        },
+
+        [9053] = {
+            [questKeys.startedBy] = {{9619,9200027}},
+            [questKeys.finishedBy] = {{9619,9300027}},
         },
 
         [9054] = {
@@ -1178,6 +2844,21 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.startedBy] = {{16376}},
         },
 
+        [9244] = {
+            [questKeys.startedBy] = {{16376,9200029}},
+            [questKeys.finishedBy] = {{16376,9300029}},
+        },
+
+        [9245] = {
+            [questKeys.startedBy] = {{16376,9200029}},
+            [questKeys.finishedBy] = {{16376,9300029}},
+        },
+
+        [9246] = {
+            [questKeys.startedBy] = {{16376,9200029}},
+            [questKeys.finishedBy] = {{16376,9300029}},
+        },
+
         [9260] = {
             [questKeys.startedBy] = {{16478,616478}},
             [questKeys.finishedBy] = {{16478,616478}},
@@ -1296,38 +2977,68 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [9492] = {
-            [questKeys.startedBy] = {{16819,9000010}},
-            [questKeys.finishedBy] = {{16819,9000010}},
+            [questKeys.startedBy] = {{16819,9200010}},
+            [questKeys.finishedBy] = {{16819,9300010}},
         },
 
         [9493] = {
-            [questKeys.startedBy] = {{16830,9000010}},
-            [questKeys.finishedBy] = {{16830,9000010}},
+            [questKeys.startedBy] = {{16830,9200010}},
+            [questKeys.finishedBy] = {{16830,9300010}},
         },
 
         [9495] = {
-            [questKeys.startedBy] = {{3230,9000010}},
-            [questKeys.finishedBy] = {{3230,9000010}},
+            [questKeys.startedBy] = {{3230,9200010}},
+            [questKeys.finishedBy] = {{3230,9300010}},
         },
 
         [9496] = {
-            [questKeys.startedBy] = {{16575,9000010}},
-            [questKeys.finishedBy] = {{16575,9000010}},
+            [questKeys.startedBy] = {{16575,9200010}},
+            [questKeys.finishedBy] = {{16575,9300010}},
         },
 
-        [9568] = {
-            [questKeys.startedBy] = {{17433}},
-            [questKeys.finishedBy] = {{17433}},
+        [9524] = {
+            [questKeys.startedBy] = {{17288,9200010}},
+            [questKeys.finishedBy] = {{17290,9300010}},
+        },
+
+        [9572] = {
+            [questKeys.startedBy] = {{17493,9200032}},
+            [questKeys.finishedBy] = {{17558,9300032}},
+        },
+
+        [9575] = {
+            [questKeys.startedBy] = {{17557,9200032}},
+            [questKeys.finishedBy] = {{17479,9300032}},
+        },
+
+        [9589] = {
+            [questKeys.startedBy] = {{17479,9200003,9200032}},
+            [questKeys.finishedBy] = {{17479,9300003,9300032}},
         },
 
         [9590] = {
-            [questKeys.startedBy] = {{17558,9000003}},
-            [questKeys.finishedBy] = {{17558,9000003}},
+            [questKeys.startedBy] = {{17558,9200003,9200032}},
+            [questKeys.finishedBy] = {{17558,9300003,9300032}},
+        },
+
+        [9607] = {
+            [questKeys.startedBy] = {{17479,9200003}},
+            [questKeys.finishedBy] = {{16819,9300003}},
         },
 
         [9608] = {
-            [questKeys.startedBy] = {{17558,9000003}},
-            [questKeys.finishedBy] = {{3230,9000003}},
+            [questKeys.startedBy] = {{17558,9200003}},
+            [questKeys.finishedBy] = {{3230,9300003}},
+        },
+
+        [9637] = {
+            [questKeys.startedBy] = {{17636,9200007,9200010}},
+            [questKeys.finishedBy] = {{17636,9300007,9300010}},
+        },
+
+        [9692] = {
+            [questKeys.startedBy] = {{17717,9200016}},
+            [questKeys.finishedBy] = {{17717,9300016}},
         },
 
         [9712] = {
@@ -1336,107 +3047,202 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [9715] = {
-            [questKeys.startedBy] = {{17856,9000004}},
-            [questKeys.finishedBy] = {{17856,9000004}},
+            [questKeys.startedBy] = {{17856,9200004}},
+            [questKeys.finishedBy] = {{17856,9300004}},
         },
 
         [9717] = {
-            [questKeys.startedBy] = {{17857,9000004}},
-            [questKeys.finishedBy] = {{17857,9000004}},
+            [questKeys.startedBy] = {{17857,9200004}},
+            [questKeys.finishedBy] = {{17857,9300004}},
         },
 
         [9719] = {
-            [questKeys.startedBy] = {{17866,9000004}},
-            [questKeys.finishedBy] = {{17866,9000004}},
+            [questKeys.startedBy] = {{17866,9200004}},
+            [questKeys.finishedBy] = {{17866,9300004}},
         },
 
         [9738] = {
-            [questKeys.startedBy] = {{17884,9000004}},
-            [questKeys.finishedBy] = {{17884,9000004}},
+            [questKeys.startedBy] = {{17884,9200004}},
+            [questKeys.finishedBy] = {{17884,9300004}},
+        },
+
+        [9763] = {
+            [questKeys.startedBy] = {{17884,9200004}},
+            [questKeys.finishedBy] = {{17884,9300004}},
+        },
+
+        [9764] = {
+            [questKeys.finishedBy] = {{17841,9300004}},
+        },
+
+        [9765] = {
+            [questKeys.startedBy] = {{17841,9200004}},
+            [questKeys.finishedBy] = {{17841,9300004}},
         },
 
         [9831] = {
-            [questKeys.startedBy] = {{18166,9000009}},
-            [questKeys.finishedBy] = {{18166,9000009}},
+            [questKeys.startedBy] = {{18166,9200009}},
+            [questKeys.finishedBy] = {{18166,9300009}},
         },
 
         [9832] = {
-            [questKeys.startedBy] = {{18166,9000009,9000011}},
-            [questKeys.finishedBy] = {{18166,9000011}},
+            [questKeys.startedBy] = {{18166,9200009,9200011}},
+            [questKeys.finishedBy] = {{18166,9300009,9300011}},
         },
 
         [9836] = {
-            [questKeys.startedBy] = {{18166,9000008}},
-            [questKeys.finishedBy] = {{15608,9000008}},
+            [questKeys.startedBy] = {{18166,9200008}},
+            [questKeys.finishedBy] = {{15608,9300008}},
+        },
+
+        [9837] = {
+            [questKeys.finishedBy] = {{18166,9300008}},
         },
 
         [10091] = {
-            [questKeys.startedBy] = {{18891,9000009}},
-            [questKeys.finishedBy] = {{18893,9000009}},
+            [questKeys.startedBy] = {{18891,9200009}},
+            [questKeys.finishedBy] = {{18893,9300009}},
         },
 
         [10094] = {
-            [questKeys.startedBy] = {{19542,9000009}},
-            [questKeys.finishedBy] = {{9000009},{182947}},
+            [questKeys.startedBy] = {{19542,9200009}},
+            [questKeys.finishedBy] = {{9300009},{182947}},
         },
 
         [10095] = {
-            [questKeys.startedBy] = {{9000009},{182947}},
-            [questKeys.finishedBy] = {{18893,9000009}},
+            [questKeys.startedBy] = {{9200009},{182947}},
+            [questKeys.finishedBy] = {{18893,9300009}},
         },
 
         [10097] = {
-            [questKeys.startedBy] = {{18933,9000007}},
-            [questKeys.finishedBy] = {{18933,9000007}},
+            [questKeys.startedBy] = {{18933,9200007}},
+            [questKeys.finishedBy] = {{18933,9300007}},
+        },
+
+        [10098] = {
+            [questKeys.startedBy] = {{18933,9200007}},
+            [questKeys.finishedBy] = {{18933,9300007}},
         },
 
         [10164] = {
-            [questKeys.startedBy] = {{19698,9000006}},
-            [questKeys.finishedBy] = {{0,19698,9000006}},
+            [questKeys.startedBy] = {{19698,9200006}},
+            [questKeys.finishedBy] = {{19698,9300006}},
         },
 
         [10165] = {
-            [questKeys.startedBy] = {{19674,9000005}},
-            [questKeys.finishedBy] = {{19674,9000005}},
+            [questKeys.startedBy] = {{19674,9200005}},
+            [questKeys.finishedBy] = {{19674,9300005}},
         },
 
         [10167] = {
-            [questKeys.startedBy] = {{18481,9000006}},
-            [questKeys.finishedBy] = {{19412,9000006}},
+            [questKeys.startedBy] = {{18481,9200006}},
+            [questKeys.finishedBy] = {{19412,9300006}},
+        },
+
+        [10168] = {
+            [questKeys.startedBy] = {{19412,9200006}},
+            [questKeys.finishedBy] = {{18687,9300006}},
         },
 
         [10177] = {
-            [questKeys.startedBy] = {{18893,9000009}},
-            [questKeys.finishedBy] = {{19542,9000009}},
+            [questKeys.startedBy] = {{18893,9200009}},
+            [questKeys.finishedBy] = {{19542,9300009}},
+        },
+
+        [10178] = {
+            [questKeys.startedBy] = {{19496,9200009}},
+            [questKeys.finishedBy] = {{18891,9300009}},
         },
 
         [10216] = {
-            [questKeys.startedBy] = {{19670,9000005}},
-            [questKeys.finishedBy] = {{9000005},{183877}},
+            [questKeys.startedBy] = {{19670,9200005}},
+            [questKeys.finishedBy] = {{9300005},{183877}},
         },
 
         [10218] = {
-            [questKeys.startedBy] = {{19671,9000005}},
-            [questKeys.finishedBy] = {{19674,9000005}},
+            [questKeys.startedBy] = {{19671,9200005}},
+            [questKeys.finishedBy] = {{19674,9300005}},
         },
 
         [10257] = {
-            [questKeys.startedBy] = {{19481,9000012}},
-            [questKeys.finishedBy] = {{19481,9000012}},
+            [questKeys.startedBy] = {{19481,9200012}},
+            [questKeys.finishedBy] = {{19481,9300012}},
+        },
+
+        [10282] = {
+            [questKeys.startedBy] = {{20130,9200033}},
+            [questKeys.finishedBy] = {{18723,9300033}},
+        },
+
+        [10283] = {
+            [questKeys.finishedBy] = {{17876,9300033}},
+        },
+
+        [10284] = {
+            [questKeys.finishedBy] = {{18723,9300033}},
+        },
+
+        [10285] = {
+            [questKeys.finishedBy] = {{20130,9300033}},
         },
 
         [10296] = {
-            [questKeys.startedBy] = {{20130,9000008}},
-            [questKeys.finishedBy] = {{20201,9000008}},
+            [questKeys.startedBy] = {{20130,9200008}},
+            [questKeys.finishedBy] = {{20201,9300008}},
         },
 
         [10297] = {
-            [questKeys.startedBy] = {{20201,9000008}},
-            [questKeys.finishedBy] = {{20201,9000008}},
+            [questKeys.startedBy] = {{20201,9200008}},
+            [questKeys.finishedBy] = {{20201,9300008}},
+        },
+
+        [10298] = {
+            [questKeys.startedBy] = {{20201,9200008}},
+            [questKeys.finishedBy] = {{20130,9300008}},
         },
 
         [10445] = {
             [questKeys.startedBy] = {{19935}},
+        },
+
+        [10492] = {
+            [questKeys.startedBy] = {{16013,9200030,9200031}},
+            [questKeys.finishedBy] = {{16013,9300030,9300031}},
+        },
+
+        [10493] = {
+            [questKeys.startedBy] = {{16012,9200030,9200031}},
+            [questKeys.finishedBy] = {{16012,9300030,9300031}},
+        },
+
+        [10494] = {
+            [questKeys.startedBy] = {{16013,9200028}},
+            [questKeys.finishedBy] = {{16013,9300028}},
+        },
+
+        [10495] = {
+            [questKeys.startedBy] = {{16012,9200031}},
+            [questKeys.finishedBy] = {{16012,9300031}},
+        },
+
+        [10496] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16013,9300028,9300031}},
+        },
+
+        [10497] = {
+            [questKeys.startedBy] = {{16016,9200028,9200031}},
+            [questKeys.finishedBy] = {{16012,9300028,9300031}},
+        },
+
+        [10498] = {
+            [questKeys.startedBy] = {{16013,9200028,9200030}},
+            [questKeys.finishedBy] = {{16013,9300028,9300030}},
+        },
+
+        [10499] = {
+            [questKeys.startedBy] = {{16012,9200028,9200030}},
+            [questKeys.finishedBy] = {{16012,9300028,9300030}},
         },
 
         [10500] = {
@@ -1448,39 +3254,64 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.startedBy] = {},
         },
 
+        [10593] = {
+            [questKeys.startedBy] = {{10181,9200027}},
+            [questKeys.finishedBy] = {{17099,9300027}},
+        },
+
         [10649] = {
-            [questKeys.startedBy] = {{18417,9000009}},
-            [questKeys.finishedBy] = {{18417,9000009}},
+            [questKeys.startedBy] = {{18417,9200009}},
+            [questKeys.finishedBy] = {{18417,9300009}},
         },
 
         [10665] = {
-            [questKeys.startedBy] = {{21465,9000013}},
-            [questKeys.finishedBy] = {{21465,9000013}},
+            [questKeys.startedBy] = {{21465,9200013}},
+            [questKeys.finishedBy] = {{21465,9300013}},
         },
 
         [10666] = {
-            [questKeys.startedBy] = {{21465,9000009}},
-            [questKeys.finishedBy] = {{21465,9000009}},
+            [questKeys.startedBy] = {{21465,9200009}},
+            [questKeys.finishedBy] = {{21465,9300009}},
+        },
+
+        [10667] = {
+            [questKeys.startedBy] = {{21465,9200004}},
+            [questKeys.finishedBy] = {{21465,9300004}},
         },
 
         [10670] = {
-            [questKeys.startedBy] = {{21465,9000010}},
-            [questKeys.finishedBy] = {{21465,9000010}},
+            [questKeys.startedBy] = {{21465,9200010}},
+            [questKeys.finishedBy] = {{21465,9300010}},
         },
 
         [10704] = {
-            [questKeys.startedBy] = {{18481,9000012,9000013}},
-            [questKeys.finishedBy] = {{18481,9000012,9000013}},
+            [questKeys.startedBy] = {{18481,9200012,9200013}},
+            [questKeys.finishedBy] = {{18481,9300012,9300013}},
         },
 
         [10705] = {
-            [questKeys.startedBy] = {{21700,9000011}},
-            [questKeys.finishedBy] = {{21962,9000011}},
+            [questKeys.startedBy] = {{21700,9200011}},
+            [questKeys.finishedBy] = {{21962,9300011}},
+        },
+
+        [10706] = {
+            [questKeys.startedBy] = {{21962,9200011}},
+            [questKeys.finishedBy] = {{21700,9300011}},
         },
 
         [10882] = {
-            [questKeys.startedBy] = {{18481,9000011}},
-            [questKeys.finishedBy] = {{18481,9000011}},
+            [questKeys.startedBy] = {{18481,9200011}},
+            [questKeys.finishedBy] = {{18481,9300011}},
+        },
+
+        [10884] = {
+            [questKeys.startedBy] = {{18481,9200010}},
+            [questKeys.finishedBy] = {{18481,9300010}},
+        },
+
+        [10885] = {
+            [questKeys.startedBy] = {{18481,9200004,9200009}},
+            [questKeys.finishedBy] = {{18481,9300004,9300009}},
         },
 
         [10888] = {
@@ -1489,23 +3320,33 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [10897] = {
-            [questKeys.startedBy] = {{17909,9000012}},
-            [questKeys.finishedBy] = {{17909,9000012}},
+            [questKeys.startedBy] = {{17909,9200012}},
+            [questKeys.finishedBy] = {{17909,9300012}},
+        },
+
+        [10900] = {
+            [questKeys.startedBy] = {{22421,9200004}},
+            [questKeys.finishedBy] = {{22421,9300004}},
         },
 
         [10901] = {
-            [questKeys.startedBy] = {{22421}},
-            [questKeys.finishedBy] = {{22421}},
+            [questKeys.startedBy] = {{22421,9200004}},
+            [questKeys.finishedBy] = {{22421,9300004}},
         },
 
         [10902] = {
-            [questKeys.startedBy] = {{19052,9000008}},
-            [questKeys.finishedBy] = {{19052,9000008}},
+            [questKeys.startedBy] = {{19052,9200008}},
+            [questKeys.finishedBy] = {{19052,9300008}},
         },
 
         [10905] = {
-            [questKeys.startedBy] = {{16588,18802,9000012}},
-            [questKeys.finishedBy] = {{17909,9000012}},
+            [questKeys.startedBy] = {{16588,18802,9200012}},
+            [questKeys.finishedBy] = {{17909,9300012}},
+        },
+
+        [10977] = {
+            [questKeys.startedBy] = {{22919,9200005}},
+            [questKeys.finishedBy] = {{22919,9300005}},
         },
 
         [11222] = {
@@ -1518,8 +3359,19 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{4968}},
         },
 
+        [11252] = {
+            [questKeys.startedBy] = {{24111,9200035}},
+            [questKeys.finishedBy] = {{23546,9300035}},
+        },
+
         [11262] = {
-            [questKeys.finishedBy] = {{23780,24137}},
+            [questKeys.startedBy] = {{24137,9200035}},
+            [questKeys.finishedBy] = {{23780,9300035}},
+        },
+
+        [11272] = {
+            [questKeys.startedBy] = {{23780,9200035}},
+            [questKeys.finishedBy] = {{23780,9300035}},
         },
 
         [11335] = {
@@ -1562,6 +3414,21 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{215350}},
         },
 
+        [11488] = {
+            [questKeys.startedBy] = {{24813,9200034}},
+            [questKeys.finishedBy] = {{24822,9300034}},
+        },
+
+        [11490] = {
+            [questKeys.startedBy] = {{24822,9200034}},
+            [questKeys.finishedBy] = {{24848,9300034}},
+        },
+
+        [11492] = {
+            [questKeys.startedBy] = {{24848,9200034}},
+            [questKeys.finishedBy] = {{24813,9300034}},
+        },
+
         [11499] = {
             [questKeys.startedBy] = {},
             [questKeys.finishedBy] = {},
@@ -1577,12 +3444,159 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {},
         },
 
+        [11905] = {
+            [questKeys.startedBy] = {{25314,9200037}},
+            [questKeys.finishedBy] = {{25314,9300037}},
+        },
+
+        [11911] = {
+            [questKeys.startedBy] = {{25314,9200037}},
+            [questKeys.finishedBy] = {{25314,9300037}},
+        },
+
+        [11973] = {
+            [questKeys.startedBy] = {{26117,9200037}},
+            [questKeys.finishedBy] = {{26117,9300037}},
+        },
+
+        [12037] = {
+            [questKeys.startedBy] = {{26604,9200041}},
+            [questKeys.finishedBy] = {{26664,9300041}},
+        },
+
+        [12238] = {
+            [questKeys.startedBy] = {{26500,26787,9200041}},
+            [questKeys.finishedBy] = {{28016,9300041}},
+        },
+
+        [12513] = {
+            [questKeys.startedBy] = {{28126,9200033}},
+            [questKeys.finishedBy] = {{28126,9300033}},
+        },
+
+        [13094] = {
+            [questKeys.startedBy] = {{26110,9200037}},
+            [questKeys.finishedBy] = {{26110,9300037}},
+        },
+
+        [13095] = {
+            [questKeys.startedBy] = {{26110,9200037}},
+            [questKeys.finishedBy] = {{26110,9300037}},
+        },
+
+        [13096] = {
+            [questKeys.startedBy] = {{30671,9200043}},
+            [questKeys.finishedBy] = {{30671,9300043}},
+        },
+
+        [13098] = {
+            [questKeys.startedBy] = {{30676,9200043}},
+            [questKeys.finishedBy] = {{30676,9300043}},
+        },
+
+        [13108] = {
+            [questKeys.startedBy] = {{30105,9200045}},
+            [questKeys.finishedBy] = {{30105,9300045}},
+        },
+
+        [13109] = {
+            [questKeys.startedBy] = {{30105,9200045}},
+            [questKeys.finishedBy] = {{30105,9300045}},
+        },
+
+        [13111] = {
+            [questKeys.startedBy] = {{30676,9200043}},
+            [questKeys.finishedBy] = {{30676,9300043}},
+        },
+
+        [13124] = {
+            [questKeys.startedBy] = {{26117,9200038}},
+            [questKeys.finishedBy] = {{27658,9300038}},
+        },
+
+        [13126] = {
+            [questKeys.finishedBy] = {{28012,9300038}},
+        },
+
+        [13127] = {
+            [questKeys.startedBy] = {{28012,9200038}},
+            [questKeys.finishedBy] = {{28012,9300038}},
+        },
+
+        [13128] = {
+            [questKeys.startedBy] = {{28012,9200038}},
+            [questKeys.finishedBy] = {{26117,9300038}},
+        },
+
+        [13129] = {
+            [questKeys.startedBy] = {{26664,9200041}},
+            [questKeys.finishedBy] = {{26604,9300041}},
+        },
+
+        [13131] = {
+            [questKeys.startedBy] = {{30871,9200036}},
+            [questKeys.finishedBy] = {{30871,9300036}},
+        },
+
+        [13132] = {
+            [questKeys.startedBy] = {{30871,9200036}},
+            [questKeys.finishedBy] = {{30871,9300036}},
+        },
+
+        [13149] = {
+            [questKeys.finishedBy] = {{27915,9300046}},
+        },
+
+        [13151] = {
+            [questKeys.startedBy] = {{27915,9200046}},
+            [questKeys.finishedBy] = {{30997,9300046}},
+        },
+
+        [13158] = {
+            [questKeys.startedBy] = {{16128,9200042}},
+            [questKeys.finishedBy] = {{31080,9300042}},
+        },
+
+        [13159] = {
+            [questKeys.startedBy] = {{31080,9200042}},
+            [questKeys.finishedBy] = {{31080,9300042}},
+        },
+
+        [13167] = {
+            [questKeys.startedBy] = {{26653,9200039}},
+            [questKeys.finishedBy] = {{26653,9300039}},
+        },
+
+        [13182] = {
+            [questKeys.startedBy] = {{26653,9200039}},
+            [questKeys.finishedBy] = {{26653,9300039}},
+        },
+
+        [13187] = {
+            [questKeys.startedBy] = {{26653,9200040}},
+            [questKeys.finishedBy] = {{26653,9300040}},
+        },
+
         [13188] = {
             [questKeys.finishedBy] = {{1748,29611}},
         },
 
+        [13204] = {
+            [questKeys.finishedBy] = {{26653,9300040}},
+        },
+
+        [13205] = {
+            [questKeys.startedBy] = {{24111,9200035}},
+            [questKeys.finishedBy] = {{24111,9300035}},
+        },
+
         [13206] = {
-            [questKeys.finishedBy] = {{23780,24137}},
+            [questKeys.startedBy] = {{24137,9200035}},
+            [questKeys.finishedBy] = {{23780,9300035}},
+        },
+
+        [13207] = {
+            [questKeys.finishedBy] = {{28070,9300044}},
         },
 
         [13245] = {
@@ -1680,9 +3694,14 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {{115351}},
         },
 
+        [13906] = {
+            [questKeys.startedBy] = {{11701,9200029}},
+            [questKeys.finishedBy] = {{11701,9300029}},
+        },
+
         [14199] = {
-            [questKeys.startedBy] = {{20735,120735}},
-            [questKeys.finishedBy] = {{20735,120735}},
+            [questKeys.startedBy] = {{120735}},
+            [questKeys.finishedBy] = {{120735}},
         },
 
         [14351] = {
@@ -1691,20 +3710,22 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [14352] = {
-            [questKeys.finishedBy] = {{2425,36273}},
+            [questKeys.finishedBy] = {{2425,36273,9300020}},
         },
 
         [14353] = {
-            [questKeys.finishedBy] = {{2425,36273}},
+            [questKeys.startedBy] = {{36273,9200020}},
+            [questKeys.finishedBy] = {{2425,36273,9300020}},
         },
 
         [14355] = {
-            [questKeys.finishedBy] = {{2425,36273}},
+            [questKeys.startedBy] = {{36273,9200023}},
+            [questKeys.finishedBy] = {{2425,36273,9300023}},
         },
 
         [14356] = {
-            [questKeys.startedBy] = {{36273,9000015}},
-            [questKeys.finishedBy] = {{2425,36273,9000015}},
+            [questKeys.startedBy] = {{36273,9200015}},
+            [questKeys.finishedBy] = {{2425,36273,9300015}},
         },
 
         [14418] = {
@@ -1727,22 +3748,101 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.finishedBy] = {},
         },
 
+        [14443] = {
+            [questKeys.finishedBy] = {{36624,9300048,9300049,9300050}},
+        },
 
+        [24461] = {
+            [questKeys.startedBy] = {{36624,9200049}},
+            [questKeys.finishedBy] = {{36624,9300049}},
+        },
 
+        [24480] = {
+            [questKeys.startedBy] = {{36624,9200050}},
+            [questKeys.finishedBy] = {{36624,9300050}},
+        },
 
+        [24498] = {
+            [questKeys.startedBy] = {{36993,9200049}},
+            [questKeys.finishedBy] = {{37591,9300049}},
+        },
 
+        [24499] = {
+            [questKeys.startedBy] = {{37597,9200048}},
+            [questKeys.finishedBy] = {{38160,9300048}},
+        },
 
+        [24500] = {
+            [questKeys.startedBy] = {{37582,9200050}},
+            [questKeys.finishedBy] = {{36955,9300050}},
+        },
 
+        [24506] = {
+            [questKeys.startedBy] = {{37780,9200048}},
+            [questKeys.finishedBy] = {{37596,9300048}},
+        },
 
+        [24507] = {
+            [questKeys.finishedBy] = {{37592,9300049}},
+        },
 
+        [24510] = {
+            [questKeys.startedBy] = {{37776,9200048}},
+            [questKeys.finishedBy] = {{37597,9300048}},
+        },
 
+        [24511] = {
+            [questKeys.finishedBy] = {{38161,9300048}},
+        },
 
+        [24554] = {
+            [questKeys.finishedBy] = {{36642,9300048,9300049,9300050}},
+        },
 
+        [24559] = {
+            [questKeys.startedBy] = {{36642,9200049}},
+            [questKeys.finishedBy] = {{36642,9300049}},
+        },
 
+        [24561] = {
+            [questKeys.startedBy] = {{36642,9200050}},
+            [questKeys.finishedBy] = {{36642,9300050}},
+        },
 
+        [24682] = {
+            [questKeys.startedBy] = {{38161,9200049}},
+            [questKeys.finishedBy] = {{36990,9300049}},
+        },
 
+        [24683] = {
+            [questKeys.startedBy] = {{37597,38160,9200049}},
+            [questKeys.finishedBy] = {{36993,37597,9300049}},
+        },
 
+        [24710] = {
+            [questKeys.startedBy] = {{37591,9200049}},
+            [questKeys.finishedBy] = {{38188,9300049}},
+        },
 
+        [24711] = {
+            [questKeys.startedBy] = {{38188,9200050}},
+            [questKeys.finishedBy] = {{37221,9300050}},
+        },
+
+        [24712] = {
+            [questKeys.startedBy] = {{37592,9200049}},
+            [questKeys.finishedBy] = {{38189,9300049}},
+        },
+
+        [24713] = {
+            [questKeys.startedBy] = {{38189,9200050}},
+            [questKeys.finishedBy] = {{37223,9300050}},
+        },
+
+        [24802] = {
+            [questKeys.startedBy] = {{37779,9200048,9200050}},
+            [questKeys.finishedBy] = {{37554,9300048,9300050}},
+        },
 
         [108743] = {
             [questKeys.startedBy] = {nil,{180717}},
@@ -1787,6 +3887,396 @@ QuestieCompat.RegisterCorrection("questData", function()
         [109684] = {
             [questKeys.startedBy] = {{17718}},
             [questKeys.finishedBy] = {{17717}},
+        },
+
+        [900001] = {
+            [questKeys.startedBy] = {{2888}},
+            [questKeys.finishedBy] = {{2888}},
+        },
+
+        [900002] = {
+            [questKeys.startedBy] = {{2921}},
+            [questKeys.finishedBy] = {{2921}},
+        },
+
+        [900003] = {
+            [questKeys.startedBy] = {{4618}},
+            [questKeys.finishedBy] = {{4618}},
+        },
+
+        [900004] = {
+            [questKeys.startedBy] = {{14628}},
+            [questKeys.finishedBy] = {{14628}},
+        },
+
+        [900005] = {
+            [questKeys.startedBy] = {{14624}},
+            [questKeys.finishedBy] = {{14624}},
+        },
+
+        [900006] = {
+            [questKeys.startedBy] = {{14624}},
+            [questKeys.finishedBy] = {{14624}},
+        },
+
+        [900007] = {
+            [questKeys.startedBy] = {{14627}},
+            [questKeys.finishedBy] = {{14627}},
+        },
+
+        [900008] = {
+            [questKeys.startedBy] = {{7363}},
+            [questKeys.finishedBy] = {{7363}},
+        },
+
+        [900009] = {
+            [questKeys.startedBy] = {{7363}},
+            [questKeys.finishedBy] = {{7363}},
+        },
+
+        [900010] = {
+            [questKeys.startedBy] = {{5476}},
+            [questKeys.finishedBy] = {{5476}},
+        },
+
+        [900011] = {
+            [questKeys.startedBy] = {{5476}},
+            [questKeys.finishedBy] = {{5476}},
+        },
+
+        [900012] = {
+            [questKeys.startedBy] = {{17127}},
+            [questKeys.finishedBy] = {{17127}},
+        },
+
+        [900013] = {
+            [questKeys.startedBy] = {{7572}},
+            [questKeys.finishedBy] = {{7572}},
+        },
+
+        [900014] = {
+            [questKeys.startedBy] = {{5391}},
+            [questKeys.finishedBy] = {{5391}},
+        },
+
+        [900015] = {
+            [questKeys.startedBy] = {{9560}},
+            [questKeys.finishedBy] = {{9560}},
+        },
+
+        [900016] = {
+            [questKeys.startedBy] = {{9561}},
+            [questKeys.finishedBy] = {{9561}},
+        },
+
+        [900017] = {
+            [questKeys.startedBy] = {{9562}},
+            [questKeys.finishedBy] = {{9562}},
+        },
+
+        [900018] = {
+            [questKeys.startedBy] = {{10267}},
+            [questKeys.finishedBy] = {{10267}},
+        },
+
+        [900019] = {
+            [questKeys.startedBy] = {{9836}},
+            [questKeys.finishedBy] = {{9836}},
+        },
+
+        [900020] = {
+            [questKeys.startedBy] = {{9536}},
+            [questKeys.finishedBy] = {{9536}},
+        },
+
+        [900021] = {
+            [questKeys.startedBy] = {{13777}},
+            [questKeys.finishedBy] = {{13777}},
+        },
+
+        [900022] = {
+            [questKeys.startedBy] = {{13816}},
+            [questKeys.finishedBy] = {{13816}},
+        },
+
+        [900023] = {
+            [questKeys.startedBy] = {{13777}},
+            [questKeys.finishedBy] = {{13777}},
+        },
+
+        [900024] = {
+            [questKeys.startedBy] = {{13776}},
+            [questKeys.finishedBy] = {{13776}},
+        },
+
+        [900025] = {
+            [questKeys.startedBy] = {{13817}},
+            [questKeys.finishedBy] = {{13817}},
+        },
+
+        [900026] = {
+            [questKeys.startedBy] = {{13776}},
+            [questKeys.finishedBy] = {{13776}},
+        },
+
+        [900027] = {
+            [questKeys.startedBy] = {{10922}},
+            [questKeys.finishedBy] = {{10922}},
+        },
+
+        [900028] = {
+            [questKeys.startedBy] = {{11019}},
+            [questKeys.finishedBy] = {{11019}},
+        },
+
+        [900029] = {
+            [questKeys.startedBy] = {{10924}},
+            [questKeys.finishedBy] = {{10924}},
+        },
+
+        [900030] = {
+            [questKeys.startedBy] = {{9116}},
+            [questKeys.finishedBy] = {{9116}},
+        },
+
+        [900031] = {
+            [questKeys.startedBy] = {{8379}},
+            [questKeys.finishedBy] = {{8379}},
+        },
+
+        [900032] = {
+            [questKeys.startedBy] = {{8405}},
+            [questKeys.finishedBy] = {{8405}},
+        },
+
+        [900033] = {
+            [questKeys.startedBy] = {{7783}},
+            [questKeys.finishedBy] = {{7783}},
+        },
+
+        [900034] = {
+            [questKeys.startedBy] = {{8420}},
+            [questKeys.finishedBy] = {{8420}},
+        },
+
+        [900035] = {
+            [questKeys.startedBy] = {{13278}},
+            [questKeys.finishedBy] = {{13278}},
+        },
+
+        [900036] = {
+            [questKeys.startedBy] = {{5398}},
+            [questKeys.finishedBy] = {{5398}},
+        },
+
+        [900037] = {
+            [questKeys.startedBy] = {{5397}},
+            [questKeys.finishedBy] = {{5397}},
+        },
+
+        [900038] = {
+            [questKeys.startedBy] = {{13717}},
+            [questKeys.finishedBy] = {{13717}},
+        },
+
+        [900039] = {
+            [questKeys.startedBy] = {{13656}},
+            [questKeys.finishedBy] = {{13656}},
+        },
+
+        [900040] = {
+            [questKeys.startedBy] = {{4630}},
+            [questKeys.finishedBy] = {{4630}},
+        },
+
+        [900041] = {
+            [questKeys.startedBy] = {{4629}},
+            [questKeys.finishedBy] = {{4629}},
+        },
+
+        [900042] = {
+            [questKeys.startedBy] = {{6548}},
+            [questKeys.finishedBy] = {{6548}},
+        },
+
+        [900043] = {
+            [questKeys.startedBy] = {{4201}},
+            [questKeys.finishedBy] = {{4201}},
+        },
+
+        [900044] = {
+            [questKeys.startedBy] = {{4080}},
+            [questKeys.finishedBy] = {{4080}},
+        },
+
+        [900045] = {
+            [questKeys.startedBy] = {{11864}},
+            [questKeys.finishedBy] = {{11864}},
+        },
+
+        [900046] = {
+            [questKeys.startedBy] = {{4077}},
+            [questKeys.finishedBy] = {{4077}},
+        },
+
+        [900047] = {
+            [questKeys.startedBy] = {{11861}},
+            [questKeys.finishedBy] = {{11861}},
+        },
+
+        [900048] = {
+            [questKeys.startedBy] = {{12696}},
+            [questKeys.finishedBy] = {{12696}},
+        },
+
+        [900049] = {
+            [questKeys.startedBy] = {{12737}},
+            [questKeys.finishedBy] = {{12737}},
+        },
+
+        [900050] = {
+            [questKeys.startedBy] = {{12736}},
+            [questKeys.finishedBy] = {{12736}},
+        },
+
+        [900051] = {
+            [questKeys.startedBy] = {{5636}},
+            [questKeys.finishedBy] = {{5636}},
+        },
+
+        [900052] = {
+            [questKeys.startedBy] = {{14741}},
+            [questKeys.finishedBy] = {{14741}},
+        },
+
+        [900053] = {
+            [questKeys.startedBy] = {{5634}},
+            [questKeys.finishedBy] = {{5634}},
+        },
+
+        [900054] = {
+            [questKeys.startedBy] = {{9660}},
+            [questKeys.finishedBy] = {{9660}},
+        },
+
+        [900055] = {
+            [questKeys.startedBy] = {{14738}},
+            [questKeys.finishedBy] = {{14738}},
+        },
+
+        [900056] = {
+            [questKeys.startedBy] = {{7763}},
+            [questKeys.finishedBy] = {{7763}},
+        },
+
+        [900057] = {
+            [questKeys.startedBy] = {{7724}},
+            [questKeys.finishedBy] = {{7724}},
+        },
+
+        [900058] = {
+            [questKeys.startedBy] = {{7804}},
+            [questKeys.finishedBy] = {{7804}},
+        },
+
+        [900059] = {
+            [questKeys.startedBy] = {{7564}},
+            [questKeys.finishedBy] = {{7564}},
+        },
+
+        [900060] = {
+            [questKeys.startedBy] = {{8125}},
+            [questKeys.finishedBy] = {{8125}},
+        },
+
+        [900061] = {
+            [questKeys.startedBy] = {{17613}},
+            [questKeys.finishedBy] = {{17613}},
+        },
+
+        [900062] = {
+            [questKeys.startedBy] = {{18253}},
+            [questKeys.finishedBy] = {{18253}},
+        },
+
+        [900063] = {
+            [questKeys.startedBy] = {{2700}},
+            [questKeys.finishedBy] = {{2700}},
+        },
+
+        [900064] = {
+            [questKeys.startedBy] = {{2706}},
+            [questKeys.finishedBy] = {{2706}},
+        },
+
+        [900065] = {
+            [questKeys.startedBy] = {{2789}},
+            [questKeys.finishedBy] = {{2789}},
+        },
+
+        [900066] = {
+            [questKeys.startedBy] = {{2771}},
+            [questKeys.finishedBy] = {{2771}},
+        },
+
+        [900067] = {
+            [questKeys.startedBy] = {{2774}},
+            [questKeys.finishedBy] = {{2774}},
+        },
+
+        [900068] = {
+            [questKeys.startedBy] = {{3442}},
+            [questKeys.finishedBy] = {{3442}},
+        },
+
+        [900069] = {
+            [questKeys.startedBy] = {{3446}},
+            [questKeys.finishedBy] = {{3446}},
+        },
+
+        [900070] = {
+            [questKeys.startedBy] = {{23569}},
+            [questKeys.finishedBy] = {{23569}},
+        },
+
+        [900071] = {
+            [questKeys.startedBy] = {{23568}},
+            [questKeys.finishedBy] = {{23568}},
+        },
+
+        [900072] = {
+            [questKeys.startedBy] = {{3391}},
+            [questKeys.finishedBy] = {{3391}},
+        },
+
+        [900073] = {
+            [questKeys.startedBy] = {{2930}},
+            [questKeys.finishedBy] = {{2930}},
+        },
+
+        [900074] = {
+            [questKeys.startedBy] = {{3701}},
+            [questKeys.finishedBy] = {{3701}},
+        },
+
+        [900075] = {
+            [questKeys.startedBy] = {{10216}},
+            [questKeys.finishedBy] = {{10216}},
+        },
+
+        [900076] = {
+            [questKeys.startedBy] = {{3693}},
+            [questKeys.finishedBy] = {{3693}},
+        },
+
+        [900077] = {
+            [questKeys.startedBy] = {{6301}},
+            [questKeys.finishedBy] = {{6301}},
+        },
+
+        [900078] = {
+            [questKeys.startedBy] = {{2913}},
+            [questKeys.finishedBy] = {{2913}},
         },
     }
 
@@ -1878,10 +4368,6 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [38] = {
             [questKeys.reputationReward] = {{factionIDs.STORMWIND,100}},
-        },
-
-        [40] = {
-            [questKeys.requiredLevel] = 6,
         },
 
         [46] = {
@@ -2645,10 +5131,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.reputationReward] = {{factionIDs.UNDERCITY,150}},
         },
 
-        [428] = {
-            [questKeys.requiredLevel] = 9,
-        },
-
         [429] = {
             [questKeys.reputationReward] = {{factionIDs.UNDERCITY,50}},
         },
@@ -2674,7 +5156,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [437] = {
-            [questKeys.requiredLevel] = 9,
             [questKeys.reputationReward] = {{factionIDs.UNDERCITY,100}},
         },
 
@@ -3146,7 +5627,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [621] = {
-            [questKeys.requiredLevel] = 34,
             [questKeys.reputationReward] = {{factionIDs.BOOTY_BAY,100},{factionIDs.BLOODSAIL_BUCCANEERS,-500}},
         },
 
@@ -3364,10 +5844,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.reputationReward] = {{factionIDs.IRONFORGE,100}},
         },
 
-        [715] = {
-            [questKeys.requiredLevel] = 34,
-        },
-
         [717] = {
             [questKeys.reputationReward] = {{factionIDs.STORMWIND,150}},
         },
@@ -3425,7 +5901,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [743] = {
-            [questKeys.requiredLevel] = 4,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,100}},
         },
 
@@ -3438,7 +5913,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [746] = {
-            [questKeys.requiredLevel] = 5,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,100}},
         },
 
@@ -3523,7 +5997,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [766] = {
-            [questKeys.requiredLevel] = 4,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,100}},
         },
 
@@ -3610,6 +6083,7 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [792] = {
+            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
             [questKeys.requiredClasses] = classIDs.WARRIOR + classIDs.PALADIN + classIDs.HUNTER + classIDs.ROGUE + classIDs.PRIEST + classIDs.DEATH_KNIGHT + classIDs.SHAMAN + classIDs.MAGE + classIDs.DRUID,
             [questKeys.objectivesText] = {"Kill 12 Vile Familiars.","","Return to Zureetha Fargaze outside the Den."},
             [questKeys.questFlags] = 8,
@@ -3655,10 +6129,6 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [815] = {
             [questKeys.reputationReward] = {{factionIDs.ORGRIMMAR,100},{factionIDs.DARKSPEAR_TROLLS,100}},
-        },
-
-        [816] = {
-            [questKeys.requiredLevel] = 7,
         },
 
         [818] = {
@@ -3726,7 +6196,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [840] = {
-            [questKeys.requiredLevel] = 9,
             [questKeys.reputationReward] = {{factionIDs.ORGRIMMAR,50},{factionIDs.DARKSPEAR_TROLLS,50}},
         },
 
@@ -3782,12 +6251,7 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.reputationReward] = {{factionIDs.RATCHET,100}},
         },
 
-        [860] = {
-            [questKeys.requiredLevel] = 9,
-        },
-
         [861] = {
-            [questKeys.requiredLevel] = 7,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,100}},
         },
 
@@ -3812,7 +6276,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [867] = {
-            [questKeys.requiredLevel] = 11,
             [questKeys.reputationReward] = {{factionIDs.ORGRIMMAR,100}},
         },
 
@@ -3913,10 +6376,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.reputationReward] = {{factionIDs.RATCHET,150}},
         },
 
-        [899] = {
-            [questKeys.requiredLevel] = 12,
-        },
-
         [900] = {
             [questKeys.reputationReward] = {{factionIDs.RATCHET,50}},
         },
@@ -3942,7 +6401,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [909] = {
-            [questKeys.requiredLevel] = 20,
             [questKeys.reputationReward] = {{factionIDs.DARKSPEAR_TROLLS,150}},
         },
 
@@ -4334,7 +6792,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [1058] = {
-            [questKeys.requiredLevel] = 19,
             [questKeys.reputationReward] = {{factionIDs.DARKSPEAR_TROLLS,100}},
         },
 
@@ -4367,7 +6824,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [1069] = {
-            [questKeys.requiredLevel] = 13,
             [questKeys.reputationReward] = {{factionIDs.RATCHET,150}},
         },
 
@@ -4489,12 +6945,10 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [1130] = {
-            [questKeys.requiredLevel] = 19,
             [questKeys.preQuestSingle] = {882},
         },
 
         [1131] = {
-            [questKeys.requiredLevel] = 18,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,100}},
         },
 
@@ -4651,7 +7105,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [1195] = {
-            [questKeys.requiredLevel] = 18,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,150}},
         },
 
@@ -4672,7 +7125,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [1201] = {
-            [questKeys.objectives] = {{{9000022}}},
             [questKeys.reputationReward] = {{factionIDs.ORGRIMMAR,100}},
         },
 
@@ -4869,7 +7321,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [1434] = {
-            [questKeys.objectives] = {{{4670},{4671},{4673},{4675}}},
             [questKeys.reputationReward] = {{factionIDs.UNDERCITY,100}},
         },
 
@@ -5395,10 +7846,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-        [1701] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
         [1702] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
@@ -5513,10 +7960,12 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [1793] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+            [questKeys.specialFlags] = specialFlags.REPEATABLE,
         },
 
         [1794] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+            [questKeys.specialFlags] = specialFlags.REPEATABLE,
         },
 
         [1798] = {
@@ -5576,10 +8025,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [1825] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [1838] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
@@ -5881,6 +8326,7 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [2284] = {
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
             [questKeys.reputationReward] = {{factionIDs.ORGRIMMAR,75}},
         },
 
@@ -6126,7 +8572,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [2932] = {
-            [questKeys.requiredLevel] = 33,
             [questKeys.reputationReward] = {{factionIDs.DARKSPEAR_TROLLS,100}},
         },
 
@@ -6283,12 +8728,10 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [3062] = {
-            [questKeys.requiredLevel] = 41,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,150}},
         },
 
         [3063] = {
-            [questKeys.requiredLevel] = 41,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,75}},
         },
 
@@ -6619,10 +9062,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.reputationReward] = {{factionIDs.DARNASSUS,150}},
         },
 
-        [3380] = {
-            [questKeys.requiredLevel] = 40,
-        },
-
         [3449] = {
             [questKeys.reputationReward] = {{factionIDs.IRONFORGE,50}},
         },
@@ -6632,7 +9071,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [3504] = {
-            [questKeys.requiredLevel] = 41,
             [questKeys.reputationReward] = {{factionIDs.ORGRIMMAR,50}},
         },
 
@@ -7112,10 +9550,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredLevel] = 15,
         },
 
-        [4767] = {
-            [questKeys.requiredLevel] = 23,
-        },
-
         [4771] = {
             [questKeys.reputationReward] = {{factionIDs.ARGENT_DAWN,200}},
         },
@@ -7141,7 +9575,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [4821] = {
-            [questKeys.requiredLevel] = 23,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,100}},
         },
 
@@ -7178,7 +9611,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [4921] = {
-            [questKeys.requiredLevel] = 12,
             [questKeys.reputationReward] = {{factionIDs.ORGRIMMAR,75}},
         },
 
@@ -7233,6 +9665,7 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [4981] = {
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
             [questKeys.reputationReward] = {{factionIDs.BOOTY_BAY,100},{factionIDs.BLOODSAIL_BUCCANEERS,-500}},
         },
 
@@ -7287,7 +9720,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [5064] = {
-            [questKeys.requiredLevel] = 23,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,100}},
         },
 
@@ -7483,16 +9915,10 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [5361] = {
-            [questKeys.requiredLevel] = 31,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,75}},
         },
 
-        [5381] = {
-            [questKeys.requiredLevel] = 30,
-        },
-
         [5386] = {
-            [questKeys.requiredLevel] = 30,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,75}},
         },
 
@@ -7793,7 +10219,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [5726] = {
-            [questKeys.requiredLevel] = 8,
             [questKeys.reputationReward] = {{factionIDs.ORGRIMMAR,100}},
         },
 
@@ -7818,12 +10243,10 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [5863] = {
-            [questKeys.objectives] = {{{5474},{5472},{12046},{5475}}},
             [questKeys.reputationReward] = {{factionIDs.GADGETZAN,100}},
         },
 
         [5881] = {
-            [questKeys.requiredLevel] = 22,
             [questKeys.reputationReward] = {{factionIDs.THUNDER_BLUFF,50}},
         },
 
@@ -8108,7 +10531,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [6143] = {
-            [questKeys.requiredLevel] = 30,
             [questKeys.reputationReward] = {{factionIDs.DARKSPEAR_TROLLS,100}},
         },
 
@@ -9298,11 +11720,11 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [8301] = {
-            [questKeys.reputationReward] = {{factionIDs.BROOD_OF_NOZDORMU,200}},
+            [questKeys.reputationReward] = {{factionIDs.BROOD_OF_NOZDORMU,8000}},
         },
 
         [8302] = {
-            [questKeys.reputationReward] = {{factionIDs.BROOD_OF_NOZDORMU,200}},
+            [questKeys.reputationReward] = {{factionIDs.BROOD_OF_NOZDORMU,8000}},
         },
 
         [8303] = {
@@ -9553,7 +11975,6 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [8418] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
             [questKeys.reputationReward] = {{factionIDs.ARGENT_DAWN,150}},
         },
 
@@ -10024,260 +12445,20 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.reputationReward] = {{factionIDs.STORMWIND,75}},
         },
 
-        [8905] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+        [8985] = {
+            [questKeys.preQuestSingle] = {8970},
         },
 
-        [8906] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+        [8986] = {
+            [questKeys.preQuestSingle] = {8970},
         },
 
-        [8907] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+        [8987] = {
+            [questKeys.preQuestSingle] = {8970},
         },
 
-        [8908] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8909] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8910] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8911] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8912] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8913] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8914] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8915] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8916] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8917] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8918] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8919] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8920] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8926] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8927] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8931] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8932] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8933] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8934] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8935] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8936] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8937] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8938] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8939] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8940] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8941] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8942] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8943] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8944] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8951] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8952] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8953] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8954] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8955] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8956] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8957] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8958] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8959] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [8999] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9000] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9001] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9002] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9003] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9004] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9005] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9006] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9007] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9008] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9009] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9010] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9011] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9012] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9013] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9014] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9016] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9017] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9018] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9019] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9020] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9021] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9022] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+        [8988] = {
+            [questKeys.preQuestSingle] = {8970},
         },
 
         [9033] = {
@@ -10701,14 +12882,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.reputationReward] = {{factionIDs.BOOTY_BAY,-125},{factionIDs.BLOODSAIL_BUCCANEERS,10}},
         },
 
-        [9279] = {
-            [questKeys.questFlags] = 524426,
-        },
-
-        [9283] = {
-            [questKeys.questFlags] = 524418,
-        },
-
         [9287] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
@@ -10723,10 +12896,6 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [9291] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9303] = {
-            [questKeys.questFlags] = 524426,
         },
 
         [9317] = {
@@ -10811,10 +12980,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-        [9400] = {
-            [questKeys.requiredLevel] = 49,
-        },
-
         [9402] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
@@ -10825,10 +12990,6 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [9404] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9409] = {
-            [questKeys.questFlags] = 524426,
         },
 
         [9415] = {
@@ -10907,14 +13068,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-        [9498] = {
-            [questKeys.requiredLevel] = 59,
-        },
-
-        [9499] = {
-            [questKeys.requiredLevel] = 59,
-        },
-
         [9500] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
@@ -10955,10 +13108,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-        [9549] = {
-            [questKeys.preQuestSingle] = {},
-        },
-
         [9551] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
@@ -10977,11 +13126,6 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [9555] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [9568] = {
-            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
-            [questKeys.nextQuestInChain] = 0,
         },
 
         [9582] = {
@@ -11036,10 +13180,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.sourceItemId] = 24140,
         },
 
-        [9672] = {
-            [questKeys.questFlags] = 136,
-        },
-
         [9673] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
@@ -11058,10 +13198,15 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [9678] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+            [questKeys.specialFlags] = specialFlags.NONE,
         },
 
         [9681] = {
-            [questKeys.objectivesText] = {},
+            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+        },
+
+        [9684] = {
+            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
         [9685] = {
@@ -11082,7 +13227,7 @@ QuestieCompat.RegisterCorrection("questData", function()
         },
 
         [9692] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
         },
 
         [9707] = {
@@ -11173,47 +13318,11 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-        [10458] = {
-            [questKeys.requiredLevel] = 67,
-        },
-
         [10490] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
         [10491] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10492] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10493] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10494] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10495] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10496] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10497] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10498] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10499] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
@@ -11225,24 +13334,12 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-        [10568] = {
-            [questKeys.requiredLevel] = 67,
-        },
-
         [10590] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
         [10592] = {
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10593] = {
-            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
-        },
-
-        [10683] = {
-            [questKeys.requiredLevel] = 67,
         },
 
         [10779] = {
@@ -11265,18 +13362,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-        [10804] = {
-            [questKeys.requiredLevel] = 67,
-        },
-
-        [10807] = {
-            [questKeys.requiredLevel] = 67,
-        },
-
-        [10824] = {
-            [questKeys.requiredLevel] = 67,
-        },
-
         [10879] = {
             [questKeys.objectives] = {{{22375}}},
             [questKeys.specialFlags] = specialFlags.NONE,
@@ -11288,10 +13373,6 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [11142] = {
             [questKeys.nextQuestInChain] = 11222,
-        },
-
-        [11213] = {
-            [questKeys.requiredLevel] = 35,
         },
 
         [11222] = {
@@ -11350,10 +13431,6 @@ QuestieCompat.RegisterCorrection("questData", function()
 
         [11514] = {
             [questKeys.preQuestSingle] = {11513},
-        },
-
-        [11515] = {
-            [questKeys.objectives] = {{{24955}}},
         },
 
         [11520] = {
@@ -11670,10 +13747,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-        [14036] = {
-            [questKeys.requiredRaces] = raceIDs.NONE,
-        },
-
         [14199] = {
             [questKeys.exclusiveTo] = {24579,24580,24581,24582,24583,24584,24585,24586,24587,24588,24589,24590},
             [questKeys.questFlags] = 4232,
@@ -11807,23 +13880,6 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
         },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         [108743] = {
             [questKeys.name] = "Simply Bang a Gong!",
             [questKeys.questLevel] = 60,
@@ -11928,8 +13984,9 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.name] = "A Study in Power",
             [questKeys.questLevel] = -1,
             [questKeys.requiredLevel] = 12,
-            [questKeys.requiredRaces] = raceIDs.BLOOD_ELF,
+            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
             [questKeys.requiredClasses] = classIDs.PALADIN,
+            [questKeys.objectivesText] = {"Speak with Magister Astalor Bloodsworn in the hidden chamber beneath Blood Knight headquarters."},
             [questKeys.preQuestSingle] = {9678},
             [questKeys.nextQuestInChain] = 9684,
             [questKeys.questFlags] = 136,
@@ -11942,7 +13999,7 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.name] = "Claiming the Light",
             [questKeys.questLevel] = -1,
             [questKeys.requiredLevel] = 12,
-            [questKeys.requiredRaces] = raceIDs.BLOOD_ELF,
+            [questKeys.requiredRaces] = raceIDs.HUMAN + raceIDs.ORC + raceIDs.DWARF + raceIDs.NIGHT_ELF + raceIDs.UNDEAD + raceIDs.TAUREN + raceIDs.GNOME + raceIDs.TROLL + raceIDs.BLOOD_ELF + raceIDs.DRAENEI,
             [questKeys.requiredClasses] = classIDs.PALADIN,
             [questKeys.objectivesText] = {"Use the Shimmering Vessel on M'uru to fill it and return to Knight-Lord Bloodvalor in Silvermoon City."},
             [questKeys.objectives] = {nil,nil,{{24156}}},
@@ -11953,6 +14010,1098 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.startedBy] = {{17718},nil,nil},
             [questKeys.finishedBy] = {{17717},nil},
             [questKeys.zoneOrSort] = -141,
+        },
+
+        [900001] = {
+            [questKeys.name] = "Whelp Scales",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 40,
+            [questKeys.objectivesText] = {"Bring 8 Scalding Whelp Scales to Garek in the Badlands."},
+            [questKeys.objectives] = {nil,nil,{{900001}}},
+            [questKeys.requiredMaxLevel] = 47,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2888},nil,nil},
+            [questKeys.finishedBy] = {{2888},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 3,
+        },
+
+        [900002] = {
+            [questKeys.name] = "Restless Stone",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 40,
+            [questKeys.objectivesText] = {"Destroy 10 Enraged Rock Elementals in the south of the Badlands, then return to Lotwil Veriatus."},
+            [questKeys.objectives] = {{{2791}}},
+            [questKeys.requiredMaxLevel] = 47,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2921},nil,nil},
+            [questKeys.finishedBy] = {{2921},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 3,
+        },
+
+        [900003] = {
+            [questKeys.name] = "Dustbelcher Raiders",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 39,
+            [questKeys.objectivesText] = {"Kill 10 Dustbelcher Maulers and 6 Dustbelcher Shamans in the south-west of the Badlands, then return to Martek the Exiled."},
+            [questKeys.objectives] = {{{2717},{2718}}},
+            [questKeys.requiredMaxLevel] = 47,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{4618},nil,nil},
+            [questKeys.finishedBy] = {{4618},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 3,
+        },
+
+        [900004] = {
+            [questKeys.name] = "Glass in the Webs",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 42,
+            [questKeys.objectivesText] = {"Bring 8 Glassweb Silk to Evonice Sootsmoker at Thorium Point."},
+            [questKeys.objectives] = {nil,nil,{{900002}}},
+            [questKeys.requiredMaxLevel] = 52,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{14628},nil,nil},
+            [questKeys.finishedBy] = {{14628},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 51,
+        },
+
+        [900005] = {
+            [questKeys.name] = "Searing Venom",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 43,
+            [questKeys.objectivesText] = {"Bring 6 Searing Venom Glands to Master Smith Burninate at Thorium Point."},
+            [questKeys.objectives] = {nil,nil,{{900003}}},
+            [questKeys.requiredMaxLevel] = 52,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{14624},nil,nil},
+            [questKeys.finishedBy] = {{14624},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 51,
+        },
+
+        [900006] = {
+            [questKeys.name] = "Cooling the Forge",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 44,
+            [questKeys.objectivesText] = {"Destroy 12 Magma Elementals in Searing Gorge, then return to Master Smith Burninate at Thorium Point."},
+            [questKeys.objectives] = {{{5855}}},
+            [questKeys.requiredMaxLevel] = 52,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{14624},nil,nil},
+            [questKeys.finishedBy] = {{14624},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 51,
+        },
+
+        [900007] = {
+            [questKeys.name] = "Blind the Lookouts",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 45,
+            [questKeys.objectivesText] = {"Kill 10 Dark Iron Lookouts in Searing Gorge, then return to Hansel Heavyhands at Thorium Point."},
+            [questKeys.objectives] = {{{8566}}},
+            [questKeys.requiredMaxLevel] = 52,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{14627},nil,nil},
+            [questKeys.finishedBy] = {{14627},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 51,
+        },
+
+        [900008] = {
+            [questKeys.name] = "Felbeast Hides",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 47,
+            [questKeys.objectivesText] = {"Bring 6 Felbeast Hides to Kum'isha the Collector in the Blasted Lands."},
+            [questKeys.objectives] = {nil,nil,{{900004}}},
+            [questKeys.requiredMaxLevel] = 56,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{7363},nil,nil},
+            [questKeys.finishedBy] = {{7363},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 4,
+        },
+
+        [900009] = {
+            [questKeys.name] = "Scorpok Menace",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 47,
+            [questKeys.objectivesText] = {"Kill 10 Scorpok Stingers in the north of the Blasted Lands, then return to Kum'isha the Collector."},
+            [questKeys.objectives] = {{{5988}}},
+            [questKeys.requiredMaxLevel] = 56,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{7363},nil,nil},
+            [questKeys.finishedBy] = {{7363},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 4,
+        },
+
+        [900010] = {
+            [questKeys.name] = "Sawtooth Trouble",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 37,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Bring 8 Sawtooth Fangs to Watcher Biggs at the Swamp of Sorrows border."},
+            [questKeys.objectives] = {nil,nil,{{900005}}},
+            [questKeys.requiredMaxLevel] = 46,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{5476},nil,nil},
+            [questKeys.finishedBy] = {{5476},nil},
+            [questKeys.zoneOrSort] = 8,
+        },
+
+        [900011] = {
+            [questKeys.name] = "Choking Vines",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 38,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Destroy 10 Tangled Horrors in the south-east of the Swamp of Sorrows, then return to Watcher Biggs."},
+            [questKeys.objectives] = {{{766}}},
+            [questKeys.requiredMaxLevel] = 46,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{5476},nil,nil},
+            [questKeys.finishedBy] = {{5476},nil},
+            [questKeys.zoneOrSort] = 8,
+        },
+
+        [900012] = {
+            [questKeys.name] = "Rest for the Lost",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 34,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Free 8 Lost One Hunters and 8 Lost One Muckdwellers from their torment, then return to Anchorite Avuun."},
+            [questKeys.objectives] = {{{759},{760}}},
+            [questKeys.requiredMaxLevel] = 42,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{17127},nil,nil},
+            [questKeys.finishedBy] = {{17127},nil},
+            [questKeys.zoneOrSort] = 8,
+        },
+
+        [900013] = {
+            [questKeys.name] = "Webs over the Dead",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 38,
+            [questKeys.objectivesText] = {"Kill 12 Deathstrike Tarantulas in the Swamp of Sorrows, then return to the Fallen Hero of the Horde."},
+            [questKeys.objectives] = {{{769}}},
+            [questKeys.requiredMaxLevel] = 46,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{7572},nil,nil},
+            [questKeys.finishedBy] = {{7572},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 8,
+        },
+
+        [900014] = {
+            [questKeys.name] = "Shells of the Northern Shore",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 39,
+            [questKeys.objectivesText] = {"Bring 8 Silt Crawler Carapaces to Galen Goodward in the Swamp of Sorrows."},
+            [questKeys.objectives] = {nil,nil,{{900006}}},
+            [questKeys.requiredMaxLevel] = 47,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{5391},nil,nil},
+            [questKeys.finishedBy] = {{5391},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 8,
+        },
+
+        [900015] = {
+            [questKeys.name] = "Blackrock Vanguard",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 52,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Blackrock Soldiers and 8 Blackrock Sorcerers in the Burning Steppes, then return to Marshal Maxwell at Morgan's Vigil."},
+            [questKeys.objectives] = {{{7025},{7026}}},
+            [questKeys.requiredMaxLevel] = 58,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{9560},nil,nil},
+            [questKeys.finishedBy] = {{9560},nil},
+            [questKeys.zoneOrSort] = 46,
+        },
+
+        [900016] = {
+            [questKeys.name] = "Stingers of the Steppes",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 50,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Bring 8 Venomtip Stingers to Jalinda Sprig at Morgan's Vigil."},
+            [questKeys.objectives] = {nil,nil,{{900007}}},
+            [questKeys.requiredMaxLevel] = 57,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{9561},nil,nil},
+            [questKeys.finishedBy] = {{9561},nil},
+            [questKeys.zoneOrSort] = 46,
+        },
+
+        [900017] = {
+            [questKeys.name] = "Unbound Flame",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 50,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Put out 8 Flamekin Spitters and 8 Flamekin Sprites in the east of the Burning Steppes, then return to Helendis Riverhorn at Morgan's Vigil."},
+            [questKeys.objectives] = {{{9776},{9777}}},
+            [questKeys.requiredMaxLevel] = 57,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{9562},nil,nil},
+            [questKeys.finishedBy] = {{9562},nil},
+            [questKeys.zoneOrSort] = 46,
+        },
+
+        [900018] = {
+            [questKeys.name] = "Obsidian Cores",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 51,
+            [questKeys.objectivesText] = {"Bring 6 Obsidian Cores to Tinkee Steamboil at Flame Crest."},
+            [questKeys.objectives] = {nil,nil,{{900008}}},
+            [questKeys.requiredMaxLevel] = 58,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{10267},nil,nil},
+            [questKeys.finishedBy] = {{10267},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 46,
+        },
+
+        [900019] = {
+            [questKeys.name] = "Broodling Menace",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 51,
+            [questKeys.objectivesText] = {"Kill 10 Scalding Broodlings in the Burning Steppes, then return to Mathredis Firestar at Flame Crest."},
+            [questKeys.objectives] = {{{7048}}},
+            [questKeys.requiredMaxLevel] = 57,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{9836},nil,nil},
+            [questKeys.finishedBy] = {{9836},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 46,
+        },
+
+        [900020] = {
+            [questKeys.name] = "Reaver Scrap",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 52,
+            [questKeys.objectivesText] = {"Destroy 8 War Reavers in the Burning Steppes, then return to Maxwort Uberglint at Flame Crest."},
+            [questKeys.objectives] = {{{7039}}},
+            [questKeys.requiredMaxLevel] = 58,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{9536},nil,nil},
+            [questKeys.finishedBy] = {{9536},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 46,
+        },
+
+        [900021] = {
+            [questKeys.name] = "Furs for the Stormpike",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 31,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Bring 8 Shaggy Yeti Furs to Sergeant Durgen Stormpike in the Alterac Mountains."},
+            [questKeys.objectives] = {nil,nil,{{900009}}},
+            [questKeys.requiredMaxLevel] = 40,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13777},nil,nil},
+            [questKeys.finishedBy] = {{13777},nil},
+            [questKeys.zoneOrSort] = 36,
+        },
+
+        [900022] = {
+            [questKeys.name] = "Crushridge Raiders",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 32,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Crushridge Ogres and 6 Crushridge Brutes in the Alterac Mountains, then return to Prospector Stonehewer."},
+            [questKeys.objectives] = {{{2252},{2253}}},
+            [questKeys.requiredMaxLevel] = 41,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13816},nil,nil},
+            [questKeys.finishedBy] = {{13816},nil},
+            [questKeys.zoneOrSort] = 36,
+        },
+
+        [900023] = {
+            [questKeys.name] = "Eyes of the Syndicate",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 33,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 8 Syndicate Spies and 8 Syndicate Sentries in the Alterac Mountains, then return to Sergeant Durgen Stormpike."},
+            [questKeys.objectives] = {{{2242},{2243}}},
+            [questKeys.requiredMaxLevel] = 42,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13777},nil,nil},
+            [questKeys.finishedBy] = {{13777},nil},
+            [questKeys.zoneOrSort] = 36,
+        },
+
+        [900024] = {
+            [questKeys.name] = "Furs for the Frostwolf",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 31,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Bring 8 Shaggy Yeti Furs to Corporal Teeka Bloodsnarl in the Alterac Mountains."},
+            [questKeys.objectives] = {nil,nil,{{900009}}},
+            [questKeys.requiredMaxLevel] = 40,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13776},nil,nil},
+            [questKeys.finishedBy] = {{13776},nil},
+            [questKeys.zoneOrSort] = 36,
+        },
+
+        [900025] = {
+            [questKeys.name] = "Crushridge Thieves",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 32,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 10 Crushridge Ogres and 6 Crushridge Brutes in the Alterac Mountains, then return to Voggah Deathgrip."},
+            [questKeys.objectives] = {{{2252},{2253}}},
+            [questKeys.requiredMaxLevel] = 41,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13817},nil,nil},
+            [questKeys.finishedBy] = {{13817},nil},
+            [questKeys.zoneOrSort] = 36,
+        },
+
+        [900026] = {
+            [questKeys.name] = "Blind the Syndicate",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 33,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 8 Syndicate Spies and 8 Syndicate Sentries in the Alterac Mountains, then return to Corporal Teeka Bloodsnarl."},
+            [questKeys.objectives] = {{{2242},{2243}}},
+            [questKeys.requiredMaxLevel] = 42,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13776},nil,nil},
+            [questKeys.finishedBy] = {{13776},nil},
+            [questKeys.zoneOrSort] = 36,
+        },
+
+        [900027] = {
+            [questKeys.name] = "Angerclaw Fury",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 47,
+            [questKeys.objectivesText] = {"Kill 10 Angerclaw Maulers in Felwood, then return to Greta Mosshoof at the Emerald Sanctuary."},
+            [questKeys.objectives] = {{{8958}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{10922},nil,nil},
+            [questKeys.finishedBy] = {{10922},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 361,
+        },
+
+        [900028] = {
+            [questKeys.name] = "Ironbeak Hunters",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 48,
+            [questKeys.objectivesText] = {"Kill 10 Ironbeak Hunters in Felwood, then return to Jessir Moonbow at the Emerald Sanctuary."},
+            [questKeys.objectives] = {{{7099}}},
+            [questKeys.requiredMaxLevel] = 56,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{11019},nil,nil},
+            [questKeys.finishedBy] = {{11019},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 361,
+        },
+
+        [900029] = {
+            [questKeys.name] = "Tainted Ooze Samples",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 49,
+            [questKeys.objectivesText] = {"Bring 8 Tainted Ooze Samples to Ivy Leafrunner at the Emerald Sanctuary."},
+            [questKeys.objectives] = {nil,nil,{{900010}}},
+            [questKeys.requiredMaxLevel] = 57,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{10924},nil,nil},
+            [questKeys.finishedBy] = {{10924},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 361,
+        },
+
+        [900030] = {
+            [questKeys.name] = "Shadows of Jaedenar",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 51,
+            [questKeys.objectivesText] = {"Kill 8 Jaedenar Darkweavers and 6 Jaedenar Warlocks in Felwood, then return to Eridan Bluewind at the Emerald Sanctuary."},
+            [questKeys.objectives] = {{{7118},{7120}}},
+            [questKeys.requiredMaxLevel] = 58,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{9116},nil,nil},
+            [questKeys.finishedBy] = {{9116},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 361,
+        },
+
+        [900031] = {
+            [questKeys.name] = "Spitelash Serpents",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 45,
+            [questKeys.objectivesText] = {"Kill 10 Spitelash Serpent Guards and 6 Spitelash Screamers in Azshara, then return to Archmage Xylem."},
+            [questKeys.objectives] = {{{6194},{6193}}},
+            [questKeys.requiredMaxLevel] = 53,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{8379},nil,nil},
+            [questKeys.finishedBy] = {{8379},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 16,
+        },
+
+        [900032] = {
+            [questKeys.name] = "Stagwing Feathers",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 46,
+            [questKeys.objectivesText] = {"Bring 8 Stagwing Feathers to Ogtinc in Azshara."},
+            [questKeys.objectives] = {nil,nil,{{900011}}},
+            [questKeys.requiredMaxLevel] = 54,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{8405},nil,nil},
+            [questKeys.finishedBy] = {{8405},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 16,
+        },
+
+        [900033] = {
+            [questKeys.name] = "Legashi Corruption",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 49,
+            [questKeys.objectivesText] = {"Kill 8 Legashi Satyrs and 6 Legashi Hellcallers in Azshara, then return to Loramus Thalipedes."},
+            [questKeys.objectives] = {{{6200},{6202}}},
+            [questKeys.requiredMaxLevel] = 57,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{7783},nil,nil},
+            [questKeys.finishedBy] = {{7783},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 16,
+        },
+
+        [900034] = {
+            [questKeys.name] = "Coralshell Plates",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 50,
+            [questKeys.objectivesText] = {"Bring 8 Coralshell Plates to Kim'jael in Azshara."},
+            [questKeys.objectives] = {nil,nil,{{900012}}},
+            [questKeys.requiredMaxLevel] = 58,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{8420},nil,nil},
+            [questKeys.finishedBy] = {{8420},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 16,
+        },
+
+        [900035] = {
+            [questKeys.name] = "Storm Bay Unrest",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 52,
+            [questKeys.objectivesText] = {"Kill 10 Storm Bay Oracles in Azshara, then return to Duke Hydraxis."},
+            [questKeys.objectives] = {{{6351}}},
+            [questKeys.requiredMaxLevel] = 60,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13278},nil,nil},
+            [questKeys.finishedBy] = {{13278},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 16,
+        },
+
+        [900036] = {
+            [questKeys.name] = "Thunder in the Valley",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 34,
+            [questKeys.objectivesText] = {"Kill 10 Elder Thunder Lizards in Desolace, then return to Warug."},
+            [questKeys.objectives] = {{{4727}}},
+            [questKeys.requiredMaxLevel] = 43,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{5398},nil,nil},
+            [questKeys.finishedBy] = {{5398},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 405,
+        },
+
+        [900037] = {
+            [questKeys.name] = "Gritjaw Hides",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 33,
+            [questKeys.objectivesText] = {"Bring 8 Gritjaw Hides to Uthek the Wise in Desolace."},
+            [questKeys.objectives] = {nil,nil,{{900013}}},
+            [questKeys.requiredMaxLevel] = 42,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{5397},nil,nil},
+            [questKeys.finishedBy] = {{5397},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 405,
+        },
+
+        [900038] = {
+            [questKeys.name] = "Restless Maraudine",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 36,
+            [questKeys.objectivesText] = {"Kill 8 Maraudine Maulers and 6 Ghostly Marauders in Desolace, then return to the Centaur Pariah."},
+            [questKeys.objectives] = {{{4656},{11687}}},
+            [questKeys.requiredMaxLevel] = 44,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13717},nil,nil},
+            [questKeys.finishedBy] = {{13717},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 405,
+        },
+
+        [900039] = {
+            [questKeys.name] = "Dread of the Valley",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 37,
+            [questKeys.objectivesText] = {"Kill 8 Dread Rippers and 8 Scorpashi Venomlashers in the south of Desolace, then return to Willow."},
+            [questKeys.objectives] = {{{4694},{4699}}},
+            [questKeys.requiredMaxLevel] = 45,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{13656},nil,nil},
+            [questKeys.finishedBy] = {{13656},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 405,
+        },
+
+        [900040] = {
+            [questKeys.name] = "Sparkleshell Plates",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 29,
+            [questKeys.objectivesText] = {"Bring 8 Sparkleshell Plates to Pozzik at the Shimmering Flats."},
+            [questKeys.objectives] = {nil,nil,{{900014}}},
+            [questKeys.requiredMaxLevel] = 38,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{4630},nil,nil},
+            [questKeys.finishedBy] = {{4630},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 400,
+        },
+
+        [900041] = {
+            [questKeys.name] = "Scorpid Plague",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 29,
+            [questKeys.objectivesText] = {"Kill 10 Scorpid Reavers and 6 Scorpid Terrors at the Shimmering Flats, then return to Trackmaster Zherin."},
+            [questKeys.objectives] = {{{4140},{4139}}},
+            [questKeys.requiredMaxLevel] = 38,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{4629},nil,nil},
+            [questKeys.finishedBy] = {{4629},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 400,
+        },
+
+        [900042] = {
+            [questKeys.name] = "Cloud Serpents",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 25,
+            [questKeys.objectivesText] = {"Kill 10 Elder Cloud Serpents in Thousand Needles, then return to Magus Tirth."},
+            [questKeys.objectives] = {{{4119}}},
+            [questKeys.requiredMaxLevel] = 33,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{6548},nil,nil},
+            [questKeys.finishedBy] = {{6548},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 400,
+        },
+
+        [900043] = {
+            [questKeys.name] = "Windshear Diggers",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 19,
+            [questKeys.objectivesText] = {"Kill 12 Windshear Diggers in the Stonetalon Mountains, then return to Ziz Fizziks."},
+            [questKeys.objectives] = {{{3999}}},
+            [questKeys.requiredMaxLevel] = 27,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{4201},nil,nil},
+            [questKeys.finishedBy] = {{4201},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 406,
+        },
+
+        [900044] = {
+            [questKeys.name] = "Deepmoss Silk",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 17,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Bring 8 Deepmoss Silk to Kaela Shadowspear in the Stonetalon Mountains."},
+            [questKeys.objectives] = {nil,nil,{{900015}}},
+            [questKeys.requiredMaxLevel] = 25,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{4080},nil,nil},
+            [questKeys.finishedBy] = {{4080},nil},
+            [questKeys.zoneOrSort] = 406,
+        },
+
+        [900045] = {
+            [questKeys.name] = "Deepmoss Silk",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 17,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Bring 8 Deepmoss Silk to Tammra Windfield at Sun Rock Retreat."},
+            [questKeys.objectives] = {nil,nil,{{900015}}},
+            [questKeys.requiredMaxLevel] = 25,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{11864},nil,nil},
+            [questKeys.finishedBy] = {{11864},nil},
+            [questKeys.zoneOrSort] = 406,
+        },
+
+        [900046] = {
+            [questKeys.name] = "Pridewing Menace",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 19,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 8 Pridewing Wyverns and 6 Pridewing Consorts in the Stonetalon Mountains, then return to Gaxim Rustfizzle."},
+            [questKeys.objectives] = {{{4012},{4014}}},
+            [questKeys.requiredMaxLevel] = 27,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{4077},nil,nil},
+            [questKeys.finishedBy] = {{4077},nil},
+            [questKeys.zoneOrSort] = 406,
+        },
+
+        [900047] = {
+            [questKeys.name] = "Pridewing Menace",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 19,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 8 Pridewing Wyverns and 6 Pridewing Consorts in the Stonetalon Mountains, then return to Mor'rogal at Sun Rock Retreat."},
+            [questKeys.objectives] = {{{4012},{4014}}},
+            [questKeys.requiredMaxLevel] = 27,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{11861},nil,nil},
+            [questKeys.finishedBy] = {{11861},nil},
+            [questKeys.zoneOrSort] = 406,
+        },
+
+        [900048] = {
+            [questKeys.name] = "Shadethicket Uprising",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 23,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Destroy 8 Shadethicket Bark Rippers and 8 Shadethicket Stone Movers in the south of Ashenvale, then return to Senani Thunderheart at Splintertree Post."},
+            [questKeys.objectives] = {{{3784},{3782}}},
+            [questKeys.requiredMaxLevel] = 31,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{12696},nil,nil},
+            [questKeys.finishedBy] = {{12696},nil},
+            [questKeys.zoneOrSort] = 331,
+        },
+
+        [900049] = {
+            [questKeys.name] = "Shadowhorn Antlers",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 20,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Bring 8 Shadowhorn Antlers to Mastok Wrilehiss at Splintertree Post."},
+            [questKeys.objectives] = {nil,nil,{{900016}}},
+            [questKeys.requiredMaxLevel] = 29,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{12737},nil,nil},
+            [questKeys.finishedBy] = {{12737},nil},
+            [questKeys.zoneOrSort] = 331,
+        },
+
+        [900050] = {
+            [questKeys.name] = "Crawlers of Zoram",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 18,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 10 Clattering Crawlers and 8 Spined Crawlers on the Zoram Strand, then return to Je'neu Sancrea at Zoram'gar Outpost."},
+            [questKeys.objectives] = {{{3812},{3814}}},
+            [questKeys.requiredMaxLevel] = 25,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{12736},nil,nil},
+            [questKeys.finishedBy] = {{12736},nil},
+            [questKeys.zoneOrSort] = 331,
+        },
+
+        [900051] = {
+            [questKeys.name] = "Witherbark Cruelty",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 40,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Witherbark Hideskinners and 8 Witherbark Sadists in the Hinterlands, then return to Gryphon Master Talonaxe at Aerie Peak."},
+            [questKeys.objectives] = {{{2651},{2653}}},
+            [questKeys.requiredMaxLevel] = 49,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{5636},nil,nil},
+            [questKeys.finishedBy] = {{5636},nil},
+            [questKeys.zoneOrSort] = 47,
+        },
+
+        [900052] = {
+            [questKeys.name] = "Witherbark Cruelty",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 40,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 10 Witherbark Hideskinners and 8 Witherbark Sadists in the Hinterlands, then return to Huntsman Markhor at Revantusk Village."},
+            [questKeys.objectives] = {{{2651},{2653}}},
+            [questKeys.requiredMaxLevel] = 49,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{14741},nil,nil},
+            [questKeys.finishedBy] = {{14741},nil},
+            [questKeys.zoneOrSort] = 47,
+        },
+
+        [900053] = {
+            [questKeys.name] = "Owlbeast Plumage",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 41,
+            [questKeys.objectivesText] = {"Bring 8 Owlbeast Plumage to Rhapsody Shindigger in the Hinterlands."},
+            [questKeys.objectives] = {nil,nil,{{900017}}},
+            [questKeys.requiredMaxLevel] = 49,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{5634},nil,nil},
+            [questKeys.finishedBy] = {{5634},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 47,
+        },
+
+        [900054] = {
+            [questKeys.name] = "Vilebranch Raiders",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 44,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 8 Vilebranch Axe Throwers and 8 Vilebranch Witch Doctors in the Hinterlands, then return to Agnar Beastamer at Aerie Peak."},
+            [questKeys.objectives] = {{{2639},{2640}}},
+            [questKeys.requiredMaxLevel] = 52,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{9660},nil,nil},
+            [questKeys.finishedBy] = {{9660},nil},
+            [questKeys.zoneOrSort] = 47,
+        },
+
+        [900055] = {
+            [questKeys.name] = "Vilebranch Raiders",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 44,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 8 Vilebranch Axe Throwers and 8 Vilebranch Witch Doctors in the Hinterlands, then return to Otho Moji'ko at Revantusk Village."},
+            [questKeys.objectives] = {{{2639},{2640}}},
+            [questKeys.requiredMaxLevel] = 52,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{14738},nil,nil},
+            [questKeys.finishedBy] = {{14738},nil},
+            [questKeys.zoneOrSort] = 47,
+        },
+
+        [900056] = {
+            [questKeys.name] = "Glasshide Gazers",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 43,
+            [questKeys.objectivesText] = {"Kill 10 Glasshide Gazers in Tanaris, then return to Curgle Cranklehop in Gadgetzan."},
+            [questKeys.objectives] = {{{5420}}},
+            [questKeys.requiredMaxLevel] = 52,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{7763},nil,nil},
+            [questKeys.finishedBy] = {{7763},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 440,
+        },
+
+        [900057] = {
+            [questKeys.name] = "Fire Roc Feathers",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 40,
+            [questKeys.objectivesText] = {"Bring 8 Fire Roc Feathers to Senior Surveyor Fizzledowser in Gadgetzan."},
+            [questKeys.objectives] = {nil,nil,{{900018}}},
+            [questKeys.requiredMaxLevel] = 49,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{7724},nil,nil},
+            [questKeys.finishedBy] = {{7724},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 440,
+        },
+
+        [900058] = {
+            [questKeys.name] = "Steeljaw Shells",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 40,
+            [questKeys.objectivesText] = {"Bring 8 Steeljaw Shells to Trenton Lighthammer in Gadgetzan."},
+            [questKeys.objectives] = {nil,nil,{{900019}}},
+            [questKeys.requiredMaxLevel] = 48,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{7804},nil,nil},
+            [questKeys.finishedBy] = {{7804},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 440,
+        },
+
+        [900059] = {
+            [questKeys.name] = "Hazzali Swarm",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 46,
+            [questKeys.objectivesText] = {"Kill 10 Hazzali Workers and 8 Hazzali Tunnelers in Tanaris, then return to Marin Noggenfogger in Gadgetzan."},
+            [questKeys.objectives] = {{{5452},{5453}}},
+            [questKeys.requiredMaxLevel] = 54,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{7564},nil,nil},
+            [questKeys.finishedBy] = {{7564},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 440,
+        },
+
+        [900060] = {
+            [questKeys.name] = "Blisterpaw Steaks",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 40,
+            [questKeys.objectivesText] = {"Bring 8 Blisterpaw Haunches to Dirge Quikcleave in Gadgetzan."},
+            [questKeys.objectives] = {nil,nil,{{900020}}},
+            [questKeys.requiredMaxLevel] = 49,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{8125},nil,nil},
+            [questKeys.finishedBy] = {{8125},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 440,
+        },
+
+        [900061] = {
+            [questKeys.name] = "Ogres of Deadwind",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 53,
+            [questKeys.objectivesText] = {"Kill 8 Deadwind Brutes and 6 Deadwind Ogre Mages in Deadwind Pass, then return to Archmage Alturus."},
+            [questKeys.objectives] = {{{7369},{7379}}},
+            [questKeys.requiredMaxLevel] = 60,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{17613},nil,nil},
+            [questKeys.finishedBy] = {{17613},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 41,
+        },
+
+        [900062] = {
+            [questKeys.name] = "Sky Shadows",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 53,
+            [questKeys.objectivesText] = {"Kill 10 Sky Shadows in Deadwind Pass, then return to Archmage Leryda."},
+            [questKeys.objectives] = {{{7376}}},
+            [questKeys.requiredMaxLevel] = 60,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{18253},nil,nil},
+            [questKeys.finishedBy] = {{18253},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 41,
+        },
+
+        [900063] = {
+            [questKeys.name] = "Highland Hunt",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 31,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Highland Thrashers and 6 Highland Fleshstalkers in the Arathi Highlands, then return to Captain Nials at Refuge Pointe."},
+            [questKeys.objectives] = {{{2560},{2561}}},
+            [questKeys.requiredMaxLevel] = 40,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2700},nil,nil},
+            [questKeys.finishedBy] = {{2700},nil},
+            [questKeys.zoneOrSort] = 45,
+        },
+
+        [900064] = {
+            [questKeys.name] = "Highland Hunt",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 31,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 10 Highland Thrashers and 6 Highland Fleshstalkers in the Arathi Highlands, then return to Tor'gan at Hammerfall."},
+            [questKeys.objectives] = {{{2560},{2561}}},
+            [questKeys.requiredMaxLevel] = 40,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2706},nil,nil},
+            [questKeys.finishedBy] = {{2706},nil},
+            [questKeys.zoneOrSort] = 45,
+        },
+
+        [900065] = {
+            [questKeys.name] = "Drywhisker Diggers",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 33,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Drywhisker Kobolds and 6 Drywhisker Diggers in the Arathi Highlands, then return to Skuerto at Refuge Pointe."},
+            [questKeys.objectives] = {{{2572},{2574}}},
+            [questKeys.requiredMaxLevel] = 42,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2789},nil,nil},
+            [questKeys.finishedBy] = {{2789},nil},
+            [questKeys.zoneOrSort] = 45,
+        },
+
+        [900066] = {
+            [questKeys.name] = "Drywhisker Diggers",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 33,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 10 Drywhisker Kobolds and 6 Drywhisker Diggers in the Arathi Highlands, then return to Drum Fel at Hammerfall."},
+            [questKeys.objectives] = {{{2572},{2574}}},
+            [questKeys.requiredMaxLevel] = 42,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2771},nil,nil},
+            [questKeys.finishedBy] = {{2771},nil},
+            [questKeys.zoneOrSort] = 45,
+        },
+
+        [900067] = {
+            [questKeys.name] = "Creeper Venom",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 31,
+            [questKeys.objectivesText] = {"Bring 8 Creeper Venom Sacs to Doctor Draxlegauge at Faldir's Cove."},
+            [questKeys.objectives] = {nil,nil,{{900021}}},
+            [questKeys.requiredMaxLevel] = 40,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2774},nil,nil},
+            [questKeys.finishedBy] = {{2774},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 45,
+        },
+
+        [900068] = {
+            [questKeys.name] = "Silithid Swarm",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 18,
+            [questKeys.objectivesText] = {"Kill 10 Silithid Creepers and 8 Silithid Swarmers in the Barrens, then return to Sputtervalve in Ratchet."},
+            [questKeys.objectives] = {{{3250},{3252}}},
+            [questKeys.requiredMaxLevel] = 27,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{3442},nil,nil},
+            [questKeys.finishedBy] = {{3442},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 17,
+        },
+
+        [900069] = {
+            [questKeys.name] = "Thunderhawk Plumes",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 19,
+            [questKeys.objectivesText] = {"Bring 8 Thunderhawk Plumes to Mebok Mizzyrix in Ratchet."},
+            [questKeys.objectives] = {nil,nil,{{900022}}},
+            [questKeys.requiredMaxLevel] = 28,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{3446},nil,nil},
+            [questKeys.finishedBy] = {{3446},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 17,
+        },
+
+        [900070] = {
+            [questKeys.name] = "Razormane Raiders",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 20,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Razormane Stalkers and 8 Razormane Seers in the south of the Barrens, then return to Renn McGill."},
+            [questKeys.objectives] = {{{3457},{3458}}},
+            [questKeys.requiredMaxLevel] = 28,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{23569},nil,nil},
+            [questKeys.finishedBy] = {{23569},nil},
+            [questKeys.zoneOrSort] = 17,
+        },
+
+        [900071] = {
+            [questKeys.name] = "Southsea Cutthroats",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 12,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Southsea Cutthroats and 8 Southsea Privateers on the Barrens coast, then return to Captain Darill."},
+            [questKeys.objectives] = {{{3383},{3384}}},
+            [questKeys.requiredMaxLevel] = 20,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{23568},nil,nil},
+            [questKeys.finishedBy] = {{23568},nil},
+            [questKeys.zoneOrSort] = 17,
+        },
+
+        [900072] = {
+            [questKeys.name] = "Witchwing Harpies",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 14,
+            [questKeys.objectivesText] = {"Kill 10 Witchwing Slayers and 6 Witchwing Windcallers in the north of the Barrens, then return to Gazlowe in Ratchet."},
+            [questKeys.objectives] = {{{3278},{3280}}},
+            [questKeys.requiredMaxLevel] = 22,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{3391},nil,nil},
+            [questKeys.finishedBy] = {{3391},nil},
+            [questKeys.requiredRaces] = 0,
+            [questKeys.zoneOrSort] = 17,
+        },
+
+        [900073] = {
+            [questKeys.name] = "Stormscale Raiders",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 13,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 8 Stormscale Wave Riders and 8 Stormscale Sirens on the coast north of Auberdine, then return to Sentinel Glynda Nal'Shea."},
+            [questKeys.objectives] = {{{2179},{2180}}},
+            [questKeys.requiredMaxLevel] = 21,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2930},nil,nil},
+            [questKeys.finishedBy] = {{2930},nil},
+            [questKeys.zoneOrSort] = 148,
+        },
+
+        [900074] = {
+            [questKeys.name] = "Moonstalker Pelts",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 12,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Bring 8 Moonstalker Pelts to Tharnariun Treetender in Auberdine."},
+            [questKeys.objectives] = {nil,nil,{{900023}}},
+            [questKeys.requiredMaxLevel] = 20,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{3701},nil,nil},
+            [questKeys.finishedBy] = {{3701},nil},
+            [questKeys.zoneOrSort] = 148,
+        },
+
+        [900075] = {
+            [questKeys.name] = "Frenzy in the Water",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 12,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Coastal Frenzies on the coast of Darkshore, then return to Gubber Blump in Auberdine."},
+            [questKeys.objectives] = {{{2174}}},
+            [questKeys.requiredMaxLevel] = 20,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{10216},nil,nil},
+            [questKeys.finishedBy] = {{10216},nil},
+            [questKeys.zoneOrSort] = 148,
+        },
+
+        [900076] = {
+            [questKeys.name] = "Blackwood Corruption",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 14,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Blackwood Warriors in Darkshore, then return to Terenthis in Auberdine."},
+            [questKeys.objectives] = {{{2168}}},
+            [questKeys.requiredMaxLevel] = 22,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{3693},nil,nil},
+            [questKeys.finishedBy] = {{3693},nil},
+            [questKeys.zoneOrSort] = 148,
+        },
+
+        [900077] = {
+            [questKeys.name] = "Foreststrider Plumes",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 12,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Bring 8 Foreststrider Plumes to Gorbold Steelhand in Auberdine."},
+            [questKeys.objectives] = {nil,nil,{{900024}}},
+            [questKeys.requiredMaxLevel] = 20,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{6301},nil,nil},
+            [questKeys.finishedBy] = {{6301},nil},
+            [questKeys.zoneOrSort] = 148,
+        },
+
+        [900078] = {
+            [questKeys.name] = "Dark Strand Fanatics",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 14,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Dark Strand Fanatics in the north of Darkshore, then return to Archaeologist Hollee in Auberdine."},
+            [questKeys.objectives] = {{{2336}}},
+            [questKeys.requiredMaxLevel] = 22,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{2913},nil,nil},
+            [questKeys.finishedBy] = {{2913},nil},
+            [questKeys.zoneOrSort] = 148,
         },
     }
 
