@@ -4278,6 +4278,46 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.startedBy] = {{2913}},
             [questKeys.finishedBy] = {{2913}},
         },
+
+        [900079] = {
+            [questKeys.startedBy] = {{10838}},
+            [questKeys.finishedBy] = {{10838}},
+        },
+
+        [900080] = {
+            [questKeys.startedBy] = {{10838}},
+            [questKeys.finishedBy] = {{10838}},
+        },
+
+        [900081] = {
+            [questKeys.startedBy] = {{11056}},
+            [questKeys.finishedBy] = {{11056}},
+        },
+
+        [900082] = {
+            [questKeys.startedBy] = {{11056}},
+            [questKeys.finishedBy] = {{11056}},
+        },
+
+        [900083] = {
+            [questKeys.startedBy] = {{10837}},
+            [questKeys.finishedBy] = {{10837}},
+        },
+
+        [900084] = {
+            [questKeys.startedBy] = {{10837}},
+            [questKeys.finishedBy] = {{10837}},
+        },
+
+        [900085] = {
+            [questKeys.startedBy] = {{11057}},
+            [questKeys.finishedBy] = {{11057}},
+        },
+
+        [900086] = {
+            [questKeys.startedBy] = {{11057}},
+            [questKeys.finishedBy] = {{11057}},
+        },
     }
 
     -- Live server quest metadata.
@@ -15102,6 +15142,118 @@ QuestieCompat.RegisterCorrection("questData", function()
             [questKeys.startedBy] = {{2913},nil,nil},
             [questKeys.finishedBy] = {{2913},nil},
             [questKeys.zoneOrSort] = 148,
+        },
+
+        [900079] = {
+            [questKeys.name] = "Bones of Felstone",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 49,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Skeletal Sorcerers around Felstone Field and the Dalson farm, then return to Commander Ashlam Valorfist at Chillwind Camp."},
+            [questKeys.objectives] = {{{1784}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{10838},nil,nil},
+            [questKeys.finishedBy] = {{10838},nil},
+            [questKeys.zoneOrSort] = 28,
+        },
+
+        [900080] = {
+            [questKeys.name] = "The Shambling Dead",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 50,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Kill 10 Blighted Zombies in the fields of the Western Plaguelands, then return to Commander Ashlam Valorfist at Chillwind Camp."},
+            [questKeys.objectives] = {{{4475}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{10838},nil,nil},
+            [questKeys.finishedBy] = {{10838},nil},
+            [questKeys.zoneOrSort] = 28,
+        },
+
+        [900081] = {
+            [questKeys.name] = "Hearts of the Blight",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 49,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Bring 8 Blighted Bear Hearts to Alchemist Arbington at Chillwind Camp."},
+            [questKeys.objectives] = {nil,nil,{{900025}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{11056},nil,nil},
+            [questKeys.finishedBy] = {{11056},nil},
+            [questKeys.zoneOrSort] = 28,
+        },
+
+        [900082] = {
+            [questKeys.name] = "Mist and Venom",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 49,
+            [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
+            [questKeys.objectivesText] = {"Bring 8 Venom Mist Glands to Alchemist Arbington at Chillwind Camp."},
+            [questKeys.objectives] = {nil,nil,{{900026}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{11056},nil,nil},
+            [questKeys.finishedBy] = {{11056},nil},
+            [questKeys.zoneOrSort] = 28,
+        },
+
+        [900083] = {
+            [questKeys.name] = "Bones of Felstone",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 49,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 10 Skeletal Sorcerers around Felstone Field and the Dalson farm, then return to High Executor Derrington at The Bulwark."},
+            [questKeys.objectives] = {{{1784}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{10837},nil,nil},
+            [questKeys.finishedBy] = {{10837},nil},
+            [questKeys.zoneOrSort] = 28,
+        },
+
+        [900084] = {
+            [questKeys.name] = "The Shambling Dead",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 50,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Kill 10 Blighted Zombies in the fields of the Western Plaguelands, then return to High Executor Derrington at The Bulwark."},
+            [questKeys.objectives] = {{{4475}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{10837},nil,nil},
+            [questKeys.finishedBy] = {{10837},nil},
+            [questKeys.zoneOrSort] = 28,
+        },
+
+        [900085] = {
+            [questKeys.name] = "Hearts of the Blight",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 49,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Bring 8 Blighted Bear Hearts to Apothecary Dithers at The Bulwark."},
+            [questKeys.objectives] = {nil,nil,{{900025}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{11057},nil,nil},
+            [questKeys.finishedBy] = {{11057},nil},
+            [questKeys.zoneOrSort] = 28,
+        },
+
+        [900086] = {
+            [questKeys.name] = "Mist and Venom",
+            [questKeys.questLevel] = -1,
+            [questKeys.requiredLevel] = 49,
+            [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+            [questKeys.objectivesText] = {"Bring 8 Venom Mist Glands to Apothecary Dithers at The Bulwark."},
+            [questKeys.objectives] = {nil,nil,{{900026}}},
+            [questKeys.requiredMaxLevel] = 55,
+            [questKeys.questFlags] = 8,
+            [questKeys.startedBy] = {{11057},nil,nil},
+            [questKeys.finishedBy] = {{11057},nil},
+            [questKeys.zoneOrSort] = 28,
         },
     }
 

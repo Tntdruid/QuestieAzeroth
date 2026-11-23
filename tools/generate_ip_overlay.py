@@ -14,6 +14,9 @@ How each part is found:
 - NPCs, objects and items: the AzerothCore generators run once against the AzerothCore source and once
   against the live export. Entries that differ (or are new) on the live server are kept.
 
+The stock runs are kept in --work-dir with a key of what they depend on (the AzerothCore commit and SQL changes,
+the generator scripts, the command) and reused while it matches: a new export then only runs the live half.
+
 Usage (from the repository root, about 30 minutes):
     python tools/generate_ip_overlay.py --acore-source D:/azerothcore-wotlk \
         --live-dump D:/azerothcore-live-dump/acore_world.sql --work-dir D:/questie-ip-work \
@@ -22,6 +25,7 @@ Usage (from the repository root, about 30 minutes):
 Quest IDs given with --skip-quest-range (default 90000-99999, a server owner's test quests) are left out.
 """
 import argparse
+import hashlib
 import re
 import subprocess
 import sys
@@ -368,6 +372,34 @@ def revert_entries(name, stock, stock_only):
     return entries
 
 
+def acore_revision(acore_source: Path) -> str:
+    """The AzerothCore source's commit and any uncommitted changes to its SQL, or "" without git."""
+    try:
+        head = subprocess.run(["git", "-C", str(acore_source), "rev-parse", "HEAD"], capture_output=True,
+                              text=True, check=True).stdout.strip()
+        dirty = subprocess.run(["git", "-C", str(acore_source), "status", "--porcelain", "--", "data/sql"],
+                               capture_output=True, text=True, check=True).stdout
+    except (OSError, subprocess.CalledProcessError):
+        return ""
+    return head + "\n" + dirty
+
+
+def stock_key(args, name, command) -> str:
+    """What a stock run's output depends on: the AzerothCore source, the generator scripts and the command. The
+    same key means the output in --work-dir is still right, and the stock run (half the time) is skipped."""
+    revision = acore_revision(args.acore_source)
+    if not revision:
+        return ""
+    digest = hashlib.sha256(revision.encode("utf-8"))
+    for script in sorted(TOOLS_DIR.glob("*.py")):
+        digest.update(script.name.encode("utf-8"))
+        digest.update(script.read_bytes())
+    digest.update("|".join(str(part) for part in command[2:]).encode("utf-8"))
+    if name in MAP_DIFFICULTY_GENERATORS and args.map_difficulty_dbc and Path(args.map_difficulty_dbc).exists():
+        digest.update(Path(args.map_difficulty_dbc).read_bytes())
+    return digest.hexdigest()
+
+
 def build_generated(args, live_source: Path, work_dir: Path, name):
     script, extra, output_name = GENERATORS[name]
     outputs = {}
@@ -377,8 +409,18 @@ def build_generated(args, live_source: Path, work_dir: Path, name):
                    "--report", work_dir / f"{name}_{label}.md", *extra]
         if name in MAP_DIFFICULTY_GENERATORS and args.map_difficulty_dbc:
             command += ["--map-difficulty-dbc", args.map_difficulty_dbc]
-        if not (args.reuse and output.exists()):
+        # The stock run only changes with AzerothCore or the generators: kept from the last run while they match.
+        key = stock_key(args, name, command) if label == "stock" else ""
+        key_file = work_dir / f"{name}_{label}.key"
+        cached = bool(key) and output.exists() and key_file.exists() and key_file.read_text(encoding="utf-8") == key
+        if cached:
+            print(f"  {name} {label}: AzerothCore and the generators are unchanged, reusing {output}", flush=True)
+        elif not (args.reuse and output.exists()):
+            if key_file.exists():
+                key_file.unlink()
             run(command)
+            if key:
+                key_file.write_text(key, encoding="utf-8")
         outputs[label] = parse_module(output)
     header, preamble, live = outputs["live"]
     _, _, stock = outputs["stock"]
